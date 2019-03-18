@@ -7,6 +7,9 @@
     background-color: #e6e6e6;
 }
 
+.band {
+    background-color: red;
+}
 
 /*--- Logo ---- */
 
@@ -30,15 +33,14 @@
 }
 
 .members {
-    margin: 2px;
-    width: 100%;
-    border-radius: 55px;
+    margin-left: -24px;
+    width: 115%;
 }
+
 
 .james {
     margin: 2px;
     width: 100%;
-    border-radius: 55px;
 }
 
 .garage {
@@ -98,12 +100,15 @@ input {
     text-shadow: #d9d9d9;
 }
 
+/*--- Video ---- */
 
 .newalbum {
-    height: 196px;
-    margin-left: 40px;
-    width: 70%;
+    margin-left: 29px;
+    width: 84%;
+    height: 150px;
 }
+
+/*--- Video ends ---- */
 
 /*--- Events ---- */
 
@@ -188,15 +193,13 @@ input {
     }
 
     .members {
-        margin: 2px;
-        width: 100%;
-        border-radius: 55px;
+        margin-left: -24px;
+        width: 115%;
     }
 
     .james {
         margin: 2px;
         width: 100%;
-        border-radius: 55px;
     }
 
     .sign-up {
@@ -204,8 +207,9 @@ input {
     }
 
     .newalbum {
-        margin-left: 200px;
-        width: 70%;
+        margin-left: 29px;
+        width: 84%;
+        height: 150px;
     }
 
     /*----footer starts----*/
@@ -242,22 +246,23 @@ input {
     }
 
     .members {
-        margin: 0px;
-        width: 100%;
-        border-radius: 50px;
+        margin-left: -44px;
+        width: 115%;
     }
+
 
     .james {
         height: 237px;
         margin: 2px;
         margin-left: 147px;
         width: 59%;
-        border-radius: 51px;
     }
 
     .newalbum {
-        margin-left: 200px;
-        width: 70%;
+        margin-left: 100px;
+        width: 150%;
+        height: 180px;
+        margin-right: 0px;
     }
 
     /*----footer starts----*/
@@ -294,9 +299,8 @@ input {
     }
 
     .members {
-        margin: 12px;
-        width: 100%;
-        border-radius: 130px;
+        margin-left: -49px;
+        width: 112%;
     }
 
     .james {
@@ -304,12 +308,13 @@ input {
         margin: 2px;
         margin-left: 225px;
         width: 52%;
-        border-radius: 55px;
     }
 
     .newalbum {
-        margin-left: 200px;
-        width: 70%;
+        margin-left: 108px;
+        width: 160%;
+        height: 220px;
+
     }
 
     /*----footer starts----*/
@@ -340,9 +345,8 @@ input {
     }
 
     .members {
-        margin: 12px;
-        width: 100%;
-        border-radius: 130px;
+        margin-left: -179px;
+        width: 129%;
     }
 
     .james {
@@ -350,7 +354,6 @@ input {
         margin: 12px;
         margin-left: 292px;
         width: 49%;
-        border-radius: 55px;
     }
 
     .events {
@@ -359,8 +362,9 @@ input {
     }
 
     .newalbum {
-        margin-left: 200px;
-        width: 70%;
+        margin-left: 210px;
+        width: 145%;
+        height: 260px;
     }
 
     /*----footer starts----*/
