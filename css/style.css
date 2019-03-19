@@ -158,7 +158,7 @@ input {
 .nav-footer-center li {
     margin: 10px;
     margin-left: 25px;
-    padding: 10px;
+    padding: 0px;
     display: inline-block;
     line-height: 3.5;
 }
