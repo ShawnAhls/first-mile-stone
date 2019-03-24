@@ -24,7 +24,7 @@
 
 .stage {
     margin-left: -29px;
-    width: 118%;
+    width: 122%;
 }
 
 .events {
@@ -37,16 +37,14 @@
     width: 115%;
 }
 
-
 .james {
     margin: 2px;
     width: 100%;
 }
 
 .garage {
-    margin: 2px;
-    width: 100%;
-    border-radius: 55px;
+    margin-left: -15px;
+    width: 110%;
 }
 
 .button {
@@ -72,6 +70,9 @@
     text-shadow: #d9d9d9;
 }
 
+.date {
+    text-align: center;
+}
 
 h1 {
     margin-top: 25px;
@@ -128,12 +129,6 @@ input {
     text-align: center;
 }
 
-
-
-
-
-
-
 /*--- Events ends ---- */
 
 /*------footer starts-----*/
@@ -157,7 +152,7 @@ input {
 
 .nav-footer-center li {
     margin: 10px;
-    margin-left: 25px;
+    margin-left: 51px;
     padding: 0px;
     display: inline-block;
     line-height: 3.5;
@@ -171,6 +166,64 @@ input {
 
 /*------media query starts-----*/
 
+
+@media (min-width: 320px) {
+.btn {
+        text-align: center;
+        margin-left: 83px;
+        margin-top: 25px;
+        width: 50%;
+        font-family: "Anton";
+        font-size: large;
+        font-stretch: expanded;
+    }
+
+    .stage {
+        margin-left: -29px;
+        width: 122%;
+    }
+
+    .garage {
+        margin-left: -15px;
+        width: 110%;
+    }
+
+    .events {
+        margin-left: -29px;
+        width: 116%;
+    }
+
+    .members {
+        margin-left: -24px;
+        width: 115%;
+    }
+
+    .james {
+        margin: 2px;
+        width: 100%;
+    }
+
+    .sign-up {
+        margin-top: 0px;
+    }
+
+    .newalbum {
+        margin-left: 29px;
+        width: 84%;
+        height: 150px;
+    }
+
+    /*----footer starts----*/
+    .nav-footer-center li {
+        margin: 10px;
+        margin-left: 12px;
+        padding: 10px;
+        display: inline-block;
+        line-height: 3.5;
+    }
+    /*----footer ends----*/
+}
+
 @media (min-width: 575px) {
     .btn {
         text-align: center;
@@ -183,8 +236,13 @@ input {
     }
 
     .stage {
-        margin: 0;
-        width: auto;
+        margin-left: -29px;
+        width: 116%;
+    }
+
+    .garage {
+        margin-left: -15px;
+        width: 107%;
     }
 
     .events {
@@ -341,7 +399,12 @@ input {
 
     .stage {
         margin-left: -178px;
-        width: 130%;
+        width: 133%;
+    }
+
+    .garage {
+        margin-left: -165px;
+        width: 267%;
     }
 
     .members {
