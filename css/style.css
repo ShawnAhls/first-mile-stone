@@ -56,6 +56,13 @@ element.style {}
 
 /*--- Logo ends ---- */
 
+/*--- Section ---*/
+
+.text {
+    height: 200px;
+    width: 400px;
+}
+
 .alert {
     background-color: #ffff00;
 }
@@ -139,6 +146,8 @@ input {
     text-shadow: #d9d9d9;
 }
 
+/*--- Section ends ---*/
+
 /*--- Video ---- */
 
 .newalbum {
@@ -215,6 +224,11 @@ input {
         font-stretch: expanded;
     }
 
+    .text {
+        height: 124px;
+        width: 270px;
+    }
+
     .stage {
         margin-left: -29px;
         width: 122%;
@@ -270,6 +284,11 @@ input {
         font-family: "Anton";
         font-size: large;
         font-stretch: expanded;
+    }
+
+    .text {
+        height: 123px;
+        width: 320px;
     }
 
     .stage {
