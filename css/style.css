@@ -22,9 +22,6 @@
     color: #edeff1;
 }
 
-
-element.style {}
-
 .navbar-light .navbar-toggler {
     color: #0c5460;
     border-color: #e9ecef;
@@ -68,8 +65,8 @@ element.style {}
 }
 
 .stage {
-    margin-left: -29px;
-    width: 122%;
+    position: relative;
+    width: 100%;
 }
 
 .events {
@@ -87,9 +84,10 @@ element.style {}
     width: 100%;
 }
 
-.garage {
-    margin-left: -15px;
-    width: 110%;
+.blackned {
+    background-image: url("images/index/blackend.jpg");
+    background-size: 200px 200px;
+    background-position: right;
 }
 
 .button {
@@ -125,12 +123,19 @@ h1 {
 }
 
 h2 {
+    margin-top: 10px;
     text-align: center;
 }
 
 p {
     margin-top: 10px;
     text-align: center;
+}
+
+.top {
+    text-align: center;
+    background-color: lightgrey;
+    height: 64px;
 }
 
 form {
@@ -150,10 +155,9 @@ input {
 
 /*--- Video ---- */
 
-.newalbum {
-    margin-left: 29px;
-    width: 84%;
-    height: 150px;
+iframe {
+    margin: 0 auto;
+    display: block;
 }
 
 /*--- Video ends ---- */
@@ -185,27 +189,28 @@ input {
     bottom: auto;
 }
 
-.nav-footer-center {
+.nav-footer-right {
     margin: 0 auto;
     padding: 0;
     background-color: #000000;
 }
 
-.nav-footer-center ul {
+.nav-footer-right ul {
     list-style-type: none;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.nav-footer-center li {
+.nav-footer-right li {
     margin: 10px;
-    margin-left: 51px;
+    margin-left: 10px;
     padding: 0px;
     display: inline-block;
     line-height: 3.5;
+    color: #ffffff;
 }
 
-.nav-footer-center a {
+.nav-footer-right a {
     color: #ffffff;
 }
 
@@ -230,13 +235,8 @@ input {
     }
 
     .stage {
-        margin-left: -29px;
-        width: 122%;
-    }
-
-    .garage {
-        margin-left: -15px;
-        width: 110%;
+        position: relative;
+        width: 100%;
     }
 
     .events {
@@ -256,12 +256,6 @@ input {
 
     .sign-up {
         margin-top: 0px;
-    }
-
-    .newalbum {
-        margin-left: 29px;
-        width: 84%;
-        height: 150px;
     }
 
     /*----footer starts----*/
@@ -292,13 +286,8 @@ input {
     }
 
     .stage {
-        margin-left: -29px;
-        width: 116%;
-    }
-
-    .garage {
-        margin-left: -15px;
-        width: 107%;
+        position: relative;
+        width: 100%;
     }
 
     .events {
@@ -318,12 +307,6 @@ input {
 
     .sign-up {
         margin-top: 0px;
-    }
-
-    .newalbum {
-        margin-left: 29px;
-        width: 84%;
-        height: 150px;
     }
 
     /*----footer starts----*/
@@ -350,10 +333,10 @@ input {
     }
 
     .stage {
-        margin-left: -53px;
-        width: 116%;
+        position: relative;
+        width: 100%;
     }
-
+    
     .events {
         margin-left: -61px;
         width: 114%;
@@ -369,13 +352,6 @@ input {
         margin: 2px;
         margin-left: 147px;
         width: 59%;
-    }
-
-    .newalbum {
-        margin-left: 100px;
-        width: 150%;
-        height: 180px;
-        margin-right: 0px;
     }
 
     /*----footer starts----*/
@@ -402,8 +378,8 @@ input {
     }
 
     .stage {
-        margin-left: -61px;
-        width: 111%;
+        position: relative;
+        width: 100%;
     }
 
     .events {
@@ -421,13 +397,6 @@ input {
         margin: 2px;
         margin-left: 225px;
         width: 52%;
-    }
-
-    .newalbum {
-        margin-left: 108px;
-        width: 160%;
-        height: 220px;
-
     }
 
     /*----footer starts----*/
@@ -453,14 +422,10 @@ input {
     }
 
     .stage {
-        margin-left: -178px;
-        width: 129%;
+        position: relative;
+        width: 100%;
     }
 
-    .garage {
-        margin-left: -165px;
-        width: 258%;
-    }
 
     .members {
         margin-left: -179px;
@@ -478,17 +443,9 @@ input {
         margin-left: -178px;
         width: 133%;
     }
-
-    .newalbum {
-        margin-left: 210px;
-        width: 145%;
-        height: 553px;
-    }
-
     /*----footer starts----*/
     .nav-footer-center li {
         margin: 10px;
-        margin-left: 231px;
         padding: 10px;
         display: inline-block;
         line-height: 3.5;
