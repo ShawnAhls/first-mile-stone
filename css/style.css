@@ -19,7 +19,7 @@
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #edeff1;
+    color:  #ff0000;
 }
 
 .navbar-light .navbar-toggler {
@@ -75,8 +75,8 @@
 }
 
 .members {
-    margin-left: -24px;
-    width: 115%;
+    position: relative;
+    width: 100%;
 }
 
 .james {
@@ -497,8 +497,8 @@ tr:nth-child(even) {
     .james {
         height: 324px;
         margin: 12px;
-        margin-left: 292px;
         width: 49%;
+        float: left;
     }
 
     .events {
