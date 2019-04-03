@@ -80,9 +80,19 @@
 }
 
 .james {
-    margin: 2px;
-    width: 100%;
+    height: 316px;
+    margin-left: 179px;
+    width: 502px;
+    float: left;
 }
+
+.personal {
+    float: right;
+    text-align: left;
+    margin-left: 100px;
+}
+
+
 
 /* Styles the thumbnail */
 
@@ -217,7 +227,7 @@ a.lightbox-close:after {
 }
 
 .sign-up {
-    margin-top: 0px;
+    margin-top: 25px;
     font-family: "Permanent+Marker";
     font-size: 17px;
 }
@@ -241,6 +251,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    margin-top: 25px;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
 p {
     margin-top: 10px;
     text-align: center;
@@ -255,7 +271,7 @@ p {
 }
 
 form {
-    margin: 5px;
+    margin: 62px;
     padding: 5px;
     text-align: center;
 }
@@ -414,7 +430,7 @@ tr:nth-child(even) {
 
     /*--  iframe ends  --*/
     /*--  footer starts  --*/
-    .nav-footer-center li {
+    .nav-footer-right li {
         margin: 10px;
         margin-left: 12px;
         padding: 10px;
@@ -478,7 +494,7 @@ tr:nth-child(even) {
 
     /*--  iframe ends  --*/
     /*--  footer starts  --*/
-    .nav-footer-center li {
+    .nav-footer-right li {
         margin: 10px;
         margin-left: 25px;
         padding: 10px;
@@ -536,7 +552,7 @@ tr:nth-child(even) {
 
     /*--  iframe ends  --*/
     /*--  footer starts  --*/
-    .nav-footer-center li {
+    .nav-footer-right li {
         margin: 10px;
         margin-left: 101px;
         padding: 10px;
@@ -594,7 +610,7 @@ tr:nth-child(even) {
 
     /*--  iframe ends  --*/
     /*--  footer starts --*/
-    .nav-footer-center li {
+    .nav-footer-right li {
         margin: 10px;
         margin-left: 159px;
         padding: 10px;
@@ -626,10 +642,16 @@ tr:nth-child(even) {
     }
 
     .james {
-        height: 324px;
-        margin: 12px;
-        width: 49%;
+        height: 316px;
+        margin-left: 179px;
+        width: 502px;
         float: left;
+    }
+
+    .personal {
+        float: right;
+        text-align: left;
+        margin-left: 100px;
     }
 
     .events {
@@ -652,7 +674,7 @@ tr:nth-child(even) {
 
     /*--  iframe ends  --*/
     /*--  footer starts  --*/
-    .nav-footer-center li {
+    .nav-footer-right li {
         margin: 10px;
         padding: 10px;
         display: inline-block;
