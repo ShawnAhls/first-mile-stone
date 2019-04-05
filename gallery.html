@@ -32,108 +32,162 @@
 	<!----Header Ends ---->
 	<!----Section ---->
 	<h1>Gallery</h1>
-	<div class="gallery">
+	<section>
 		<div class="row">
 			<div class="column">
-				<a class="lightbox" href="images/gallery/The_Band/The_Band.jpg">
-					<img src="images/gallery/The_Band/The_Band_thumbnail.jpg" alt=""></img></a>
-				<div class="lightbox-target" id="The_Band">
-					<img src="images/gallery/The_Band/The_Band.jpg" />
-					<a class="lightbox-close" href="gallery.html"></a>
+				<img src="images/gallery/wallpaper/Metallica_wallpaper.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				<script>
+					function openModal() {
+						document.getElementById('myModal').style.display = "block";
+					}
+				</script>
+			</div>
+			<div class="column">
+				<img src="images/gallery/The_Band/The_Band.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				<script>
+					function openModal() {
+						document.getElementById('myModal').style.display = "block";
+					}
+				</script>
+			</div>
+			<div class="column">
+				<img src="images/gallery/wallpaper/Metallica_wallpaper3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				<script>
+					function openModal() {
+						document.getElementById('myModal').style.display = "block";
+					}
+				</script>
+			</div>
+			<div class="column">
+				<img src="images/gallery/fans/fans1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				<script>
+					function openModal() {
+						document.getElementById('myModal').style.display = "block";
+					}
+				</script>
+			</div>
+		</div>
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+				<div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="images/gallery/wallpaper/Metallica_wallpaper_wide.jpg" style="width:100%">
+					<script>
+						function closeModal() {
+							document.getElementById('myModal').style.display = "none";
+						}
+					</script>
 				</div>
-				<a class="lightbox" href="images/gallery/Albums/Albums.jpg">
-					<img src="images/gallery/Albums/Albums.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans.jpg">
-					<img src="images/gallery/fans/fans.jpg" alt=""></img></a>
+				<div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="images/gallery/The_Band/The_Band_wide.jpg" style="width:100%">
+					<script>
+						function closeModal() {
+							document.getElementById('myModal').style.display = "none";
+						}
+					</script>
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">3 / 4</div>
+					<img src="images/gallery/wallpaper/Metallica_wallpaper3_wide.jpg" style="width:100%">
+					<script>
+						function closeModal() {
+							document.getElementById('myModal').style.display = "none";
+						}
+					</script>
+				</div>
+				<div class="mySlides">
+					<div class="numbertext">4 / 4</div>
+					<img src "images/gallery/fans/fans1_wide.jpg" style="width:100%">
+					<script>
+						function closeModal() {
+							document.getElementById('myModal').style.display = "none";
+						}
+					</script>
+				</div>
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<script>
+					var slideIndex = 1;
+					showSlides(slideIndex);
+
+					function plusSlides(n) {
+						showSlides(slideIndex += n);
+					}
+
+					function showSlides(n) {
+						var i;
+						var slides = document.getElementsByClassName("mySlides");
+						var dots = document.getElementsByClassName("demo");
+						var captionText = document.getElementById("caption");
+						if (n > slides.length) { slideIndex = 1 }
+						if (n < 1) { slideIndex = slides.length }
+						for (i = 0; i < slides.length; i++) {
+							slides[i].style.display = "none";
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" active", "");
+						}
+						slides[slideIndex - 1].style.display = "block";
+						dots[slideIndex - 1].className += " active";
+						captionText.innerHTML = dots[slideIndex - 1].alt;
+					}
+				</script>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<!-- Caption text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!-- Thumbnail image controls -->
+				<div class="column">
+					<img class="demo" src="images/gallery/wallpaper/Metallica_wallpaper.jpg" onclick="currentSlide(1)" alt="Nature"> var slideIndex = 1; showSlides(slideIndex); // Next/previous controls function plusSlides(n) { showSlides(slideIndex += n); } // Thumbnail
+					<script>
+						var slideIndex = 1;
+						showSlides(slideIndex);
+
+						function currentSlide(n) {
+							showSlides(slideIndex = n);
+						}
+
+						function showSlides(n) {
+							var i;
+							var slides = document.getElementsByClassName("mySlides");
+							var dots = document.getElementsByClassName("demo");
+							var captionText = document.getElementById("caption");
+							if (n > slides.length) { slideIndex = 1 }
+							if (n < 1) { slideIndex = slides.length }
+							for (i = 0; i < slides.length; i++) {
+								slides[i].style.display = "none";
+							}
+							for (i = 0; i < dots.length; i++) {
+								dots[i].className = dots[i].className.replace(" active", "");
+							}
+							slides[slideIndex - 1].style.display = "block";
+							dots[slideIndex - 1].className += " active";
+							captionText.innerHTML = dots[slideIndex - 1].alt;
+						}
+					</script>
+				</div>
+				<div class="column">
+					<img class="demo" src="images/gallery/The_Band/The_Band.jpg" onclick="currentSlide(2)" alt="Snow">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/gallery/wallpaper/Metallica_wallpaper3.jpg" onclick="currentSlide(3)" alt="Mountains">
+				</div>
+
+				<div class="column">
+					<img class="demo" src="images/gallery/fans/fans1.jpg" onclick="currentSlide(4)" alt="Lights">
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="column">
-				<a class="lightbox" href="images/gallery/The_Band/The_Band1.jpg">
-					<img src="images/gallery/The_Band/The_Band1.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/Albums/Albums1.jpg">
-					<img src="images/gallery/Albums/Albums1.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper1.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper1.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans1.jpg">
-					<img src="images/gallery/fans/fans1.jpg" alt=""></img></a>
-			</div>
 		</div>
-		<div class="row">
-			<div class="column">
-				<a class="lightbox" href="images/gallery/The_Band/The_Band2.jpg">
-					<img src="images/gallery/The_Band/The_Band2.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/Albums/Albums2.jpg">
-					<img src="images/gallery/Albums/Albums2.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper2.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper2.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans2.jpg">
-					<img src="images/gallery/fans/fans2.jpg" alt=""></img></a>
-			</div>
 		</div>
-		<div class="row">
-			<div class="column">
-				<a class="lightbox" href="images/gallery/The_Band/The_Band3.jpg">
-					<img src="images/gallery/The_Band/The_Band3.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/Albums/Albums3.jpg">
-					<img src="images/gallery/Albums/Albums3.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper3.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper3.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans3.jpg">
-					<img src="images/gallery/fans/fans3.jpg" alt=""></img></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-				<a class="lightbox" href="images/gallery/The_Band/The_Band4.jpg">
-					<img src="images/gallery/The_Band/The_Band4.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/Albums/Albums4.jpg">
-					<img src="images/gallery/Albums/Albums4.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper4.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper4.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans4.jpg">
-					<img src="images/gallery/fans/fans4.jpg" alt=""></img></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-				<a class="lightbox" href="images/gallery/Albums/Albums5.jpg">
-					<img src="images/gallery/Albums/Albums5.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/The_Band/The_Band5.jpg">
-					<img src="images/gallery/The_Band/The_Band5.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper5.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper5.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans5.jpg">
-					<img src="images/gallery/fans/fans5.jpg" alt=""></img></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-				<a class="lightbox" href="images/gallery/Albums/Albums6.jpg">
-					<img src="images/gallery/Albums/Albums6.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper6.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper6.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/The_Band/The_Band6.jpg">
-					<img src="images/gallery/The_Band/The_Band6.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans6.jpg">
-					<img src="images/gallery/fans/fans6.jpg" alt=""></img></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="column">
-				<a class="lightbox" href="images/gallery/Albums/Albums7.jpg">
-					<img src="images/gallery/Albums/Albums7.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/The_Band/The_Band7.jpg">
-					<img src="images/gallery/The_Band/The_Band7.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/fans/fans7.jpg">
-					<img src="images/gallery/fans/fans7.jpg" alt=""></img></a>
-				<a class="lightbox" href="images/gallery/wallpaper/Metallica_wallpaper7.jpg">
-					<img src="images/gallery/wallpaper/Metallica_wallpaper7.jpg" alt=""></img></a>
-			</div>
-		</div>
-	</div>
+	</section>
 	<section>
 		<a href="#top" type="button" class="block"><i class="fas fa-angle-double-up">Top<i class="fas fa-angle-double-up"></i></i></a></button>
 	</section>
@@ -156,15 +210,9 @@
 		</div>
 	</footer>
 	<!----Footer Ends ---->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-	crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
-	integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
-	crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-	integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-	crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
