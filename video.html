@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<!--  Header  -->
+	<!--  Header Starts  -->
 	<nav class="navbar navbar-light navbar-expand-sm">
 		<a href="index.html" class="navbar-brand">
 			<img class="logo" src="images/logo/Metallica_logo.png" alt="The Metallica Band Name"/>
@@ -25,12 +25,46 @@
 				<li class="nav-item ml-2"><a class="nav-link" href="events.html">Events</a></li>
 				<li class="nav-item ml-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
 				<li class="active nav-item ml-2"><a class="nav-link" href="video.html">Music</a></li>
-				<li class="nav-item ml-2"><a class="nav-link" href="bookus.html">Sign Up</a></li>
+				<li class="nav-item ml-2"><a class="nav-link" href="index.html" data-toggle="modal" data-target="#exampleModal">Sign Up</a></li>
 			</ul>
 		</div>
 	</nav>
+
+	<!-- Modal -->
+	<section>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">News Letter</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+					</div>
+					<section class="sign-up">
+						<div class="modal-body">
+							<div class="container-fluid">
+								<fieldset>
+									<form>
+										<label for="name">Name :</label>
+										<input type="text" placeholder="Sydney Atkins" /></br>
+										<label for="email">Email :</label>
+										<input type="email" placeholder="Name@example.com" /></br>
+									</form>
+								</fieldset>
+							</div>
+						</div>
+					</section>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--  Header Ends  -->
-	<!--  Section  -->
+	<!--  Section Starts  -->
 	<h1>Music</h1>
 	<section>
 		<h2>Metallica - Enter Sandman</h2>
@@ -58,7 +92,7 @@
 			<i class="fas fa-angle-double-up"></i></i></a></button>
 	</section>
 	<!--  Section Ends  -->
-	<!--  Footer  -->
+	<!--  Footer Starts  -->
 	<footer>
 		<div class="contianer-fluid">
 			<div class="nav-footer-right">

@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<!----Header ---->
+	<!--  Header Starts  -->
 	<nav class="navbar navbar-light navbar-expand-sm">
 		<a href="index.html" class="navbar-brand">
 			<img class="logo" src="images/logo/Metallica_logo.png" alt="The Metallica Band Name"/>
@@ -25,174 +25,76 @@
 				<li class="nav-item ml-2"><a class="nav-link" href="events.html">Events</a></li>
 				<li class="active nav-item ml-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
 				<li class="nav-item ml-2"><a class="nav-link" href="video.html">Music</a></li>
-				<li class="nav-item ml-2"><a class="nav-link" href="bookus.html">Sign Up</a></li>
+				<li class="nav-item ml-2"><a class="nav-link" href="index.html" data-toggle="modal" data-target="#exampleModal">Sign Up</a></li>
 			</ul>
 		</div>
 	</nav>
-	<!----Header Ends ---->
-	<!----Section ---->
+
+	<!-- Modal -->
+	<section>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">News Letter</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+					</div>
+					<section class="sign-up">
+						<div class="modal-body">
+							<div class="container-fluid">
+								<fieldset>
+									<form>
+										<label for="name">Name :</label>
+										<input type="text" placeholder="Sydney Atkins" /></br>
+										<label for="email">Email :</label>
+										<input type="email" placeholder="Name@example.com" /></br>
+									</form>
+								</fieldset>
+							</div>
+						</div>
+					</section>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  Header Ends  -->
+	<!--  Section Starts  -->
 	<h1>Gallery</h1>
 	<section>
-		<div class="row">
-			<div class="column">
-				<img src="images/gallery/wallpaper/Metallica_wallpaper.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
-				<script>
-					function openModal() {
-						document.getElementById('myModal').style.display = "block";
-					}
-				</script>
-			</div>
-			<div class="column">
-				<img src="images/gallery/The_Band/The_Band.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
-				<script>
-					function openModal() {
-						document.getElementById('myModal').style.display = "block";
-					}
-				</script>
-			</div>
-			<div class="column">
-				<img src="images/gallery/wallpaper/Metallica_wallpaper3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
-				<script>
-					function openModal() {
-						document.getElementById('myModal').style.display = "block";
-					}
-				</script>
-			</div>
-			<div class="column">
-				<img src="images/gallery/fans/fans1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
-				<script>
-					function openModal() {
-						document.getElementById('myModal').style.display = "block";
-					}
-				</script>
-			</div>
-		</div>
-		<!-- The Modal/Lightbox -->
-		<div id="myModal" class="modal">
-			<span class="close cursor" onclick="closeModal()">&times;</span>
-			<div class="modal-content">
-				<div class="mySlides">
-					<div class="numbertext">1 / 4</div>
-					<img src="images/gallery/wallpaper/Metallica_wallpaper_wide.jpg" style="width:100%">
-					<script>
-						function closeModal() {
-							document.getElementById('myModal').style.display = "none";
-						}
-					</script>
-				</div>
-				<div class="mySlides">
-					<div class="numbertext">2 / 4</div>
-					<img src="images/gallery/The_Band/The_Band_wide.jpg" style="width:100%">
-					<script>
-						function closeModal() {
-							document.getElementById('myModal').style.display = "none";
-						}
-					</script>
-				</div>
-				<div class="mySlides">
-					<div class="numbertext">3 / 4</div>
-					<img src="images/gallery/wallpaper/Metallica_wallpaper3_wide.jpg" style="width:100%">
-					<script>
-						function closeModal() {
-							document.getElementById('myModal').style.display = "none";
-						}
-					</script>
-				</div>
-				<div class="mySlides">
-					<div class="numbertext">4 / 4</div>
-					<img src "images/gallery/fans/fans1_wide.jpg" style="width:100%">
-					<script>
-						function closeModal() {
-							document.getElementById('myModal').style.display = "none";
-						}
-					</script>
-				</div>
-				<!-- Next/previous controls -->
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<script>
-					var slideIndex = 1;
-					showSlides(slideIndex);
+		<p class="imglist">
+			<a href="images/gallery/The_Band/The_Band1.jpg" data-fancybox="images">
+               <img src="images/gallery/The_Band/The_Band1.jpg" />
+            </a>
+			<a href="images/gallery/wallpaper/Metallica_wallpaper.jpg" data-fancybox="images">
+               <img src="images/gallery/wallpaper/Metallica_wallpaper.jpg" />
+            </a>
+		</p>
 
-					function plusSlides(n) {
-						showSlides(slideIndex += n);
-					}
 
-					function showSlides(n) {
-						var i;
-						var slides = document.getElementsByClassName("mySlides");
-						var dots = document.getElementsByClassName("demo");
-						var captionText = document.getElementById("caption");
-						if (n > slides.length) { slideIndex = 1 }
-						if (n < 1) { slideIndex = slides.length }
-						for (i = 0; i < slides.length; i++) {
-							slides[i].style.display = "none";
-						}
-						for (i = 0; i < dots.length; i++) {
-							dots[i].className = dots[i].className.replace(" active", "");
-						}
-						slides[slideIndex - 1].style.display = "block";
-						dots[slideIndex - 1].className += " active";
-						captionText.innerHTML = dots[slideIndex - 1].alt;
-					}
-				</script>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-				<!-- Caption text -->
-				<div class="caption-container">
-					<p id="caption"></p>
-				</div>
 
-				<!-- Thumbnail image controls -->
-				<div class="column">
-					<img class="demo" src="images/gallery/wallpaper/Metallica_wallpaper.jpg" onclick="currentSlide(1)" alt="Nature"> var slideIndex = 1; showSlides(slideIndex); // Next/previous controls function plusSlides(n) { showSlides(slideIndex += n); } // Thumbnail
-					<script>
-						var slideIndex = 1;
-						showSlides(slideIndex);
 
-						function currentSlide(n) {
-							showSlides(slideIndex = n);
-						}
 
-						function showSlides(n) {
-							var i;
-							var slides = document.getElementsByClassName("mySlides");
-							var dots = document.getElementsByClassName("demo");
-							var captionText = document.getElementById("caption");
-							if (n > slides.length) { slideIndex = 1 }
-							if (n < 1) { slideIndex = slides.length }
-							for (i = 0; i < slides.length; i++) {
-								slides[i].style.display = "none";
-							}
-							for (i = 0; i < dots.length; i++) {
-								dots[i].className = dots[i].className.replace(" active", "");
-							}
-							slides[slideIndex - 1].style.display = "block";
-							dots[slideIndex - 1].className += " active";
-							captionText.innerHTML = dots[slideIndex - 1].alt;
-						}
-					</script>
-				</div>
-				<div class="column">
-					<img class="demo" src="images/gallery/The_Band/The_Band.jpg" onclick="currentSlide(2)" alt="Snow">
-				</div>
 
-				<div class="column">
-					<img class="demo" src="images/gallery/wallpaper/Metallica_wallpaper3.jpg" onclick="currentSlide(3)" alt="Mountains">
-				</div>
 
-				<div class="column">
-					<img class="demo" src="images/gallery/fans/fans1.jpg" onclick="currentSlide(4)" alt="Lights">
-				</div>
-			</div>
-		</div>
-		</div>
-		</div>
+
+
+
+
+
+
 	</section>
 	<section>
 		<a href="#top" type="button" class="block"><i class="fas fa-angle-double-up">Top<i class="fas fa-angle-double-up"></i></i></a></button>
 	</section>
-	<!----Section Ends ---->
-	<!----Footer ---->
+	<!--  Section Ends  -->
+	<!--  Footer Starts  -->
 	<footer>
 		<div class="contianer-fluid">
 			<div class="nav-footer-right">
@@ -209,7 +111,9 @@
 			</div>
 		</div>
 	</footer>
-	<!----Footer Ends ---->
+	<!--  Footer Ends  -->
+	<script src="javascript/script.js"></script>
+	<script src="jquery.fancybox.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

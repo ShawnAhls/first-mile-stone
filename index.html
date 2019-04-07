@@ -11,7 +11,7 @@
 </head>
 
 <body>
-	<!--  Header  -->
+	<!--  Header Starts  -->
 	<nav class="navbar navbar-light navbar-expand-sm">
 		<a href="index.html" class="navbar-brand">
 			<img class="logo" src="images/logo/Metallica_logo.png" alt="The Metallica Band Name"/>
@@ -25,28 +25,56 @@
 				<li class="nav-item ml-2"><a class="nav-link" href="events.html">Events</a></li>
 				<li class="nav-item ml-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
 				<li class="nav-item ml-2"><a class="nav-link" href="video.html">Music</a></li>
-				<li class="nav-item ml-2"><a class="nav-link" href="bookus.html">Sign Up</a></li>
+				<li class="nav-item ml-2"><a class="nav-link" href="#_" data-toggle="modal" data-target="#exampleModal">Sign Up</a></li>
 			</ul>
 		</div>
 	</nav>
+	<!-- Modal -->
+	<section>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">News Letter</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+					</div>
+					<section class="sign-up">
+						<div class="modal-body">
+							<div class="container-fluid">
+								<fieldset>
+									<form>
+										<label for="name">Name :</label>
+										<input type="text" placeholder="Sydney Atkins" /></br>
+										<label for="email">Email :</label>
+										<input type="email" placeholder="Name@example.com" /></br>
+									</form>
+								</fieldset>
+							</div>
+						</div>
+					</section>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<!--  Header Ends  -->
-	<!--  Section  -->
+	<!--  Section Starts  -->
 	<main>
 		<setion>
 			<img class="stage" src="images/index/on_stage.jpg" alt="The Band on Stage" />
 		</setion>
 		<h1>About the Band</h1>
-		</br>
+		<br/>
 		<h2>Ah, the joy of humble beginnings…</h2>
-		</br>
+		<br/>
 		<p>
-			Metallica, one of the biggest selling acts in American history, were</br>
-			born on October 28, 1981 when drummer Lars Ulrich and guitar</br>
-			player/singer James Hetfield got together via Ulrich’s LA Recycler</br>
-			newspaper ad. Soon, the two had recruited Hetfield’s friend and</br>
-			housemate Ron McGovney to play bass, Dave Mustaine to play lead</br>
-			guitar, and taken the name Metallica after a suggestion from Bay Area</br>
-			metal scene friend Ron Quintana.
+			Metallica, one of the biggest selling acts in American history, were<br/> born on October 28, 1981 when drummer Lars Ulrich and guitar<br/> player/singer James Hetfield got together via Ulrich’s LA Recycler<br/> newspaper ad. Soon, the two had recruited
+			Hetfield’s friend and<br/> housemate Ron McGovney to play bass, Dave Mustaine to play lead<br/> guitar, and taken the name Metallica after a suggestion from Bay Area<br/> metal scene friend Ron Quintana.
 		</p>
 		<section>
 			<div class="button btn btn-readmore"><a href="band.html">Read More...</a></div>
@@ -106,7 +134,7 @@
 		</section>
 	</main>
 	<!--  Section Ends  -->
-	<!--  Footer  -->
+	<!--  Footer Starts  -->
 	<footer>
 		<div class="contianer-fluid">
 			<div class="nav-footer-right">
@@ -119,7 +147,6 @@
 			</div>
 		</div>
 	</footer>
-
 	<!--  Footer Ends  -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
