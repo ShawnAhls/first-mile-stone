@@ -5,18 +5,6 @@ images google
 events and about the band, Metallica web site
 
 
-help
-
-books
-HTML & CSS by Jon Duckett
-
-Internet
-Google
-Bootstrap
-stackoverflow
-w3school
-
-
 Links
 Facebook
 Tweeter
