@@ -2,7 +2,7 @@ image code w3school.com
 video clips from you tube
 info on members wikipedia
 images google
-events Metallica web site
+events and about the band, Metallica web site
 
 
 help
