@@ -67,7 +67,6 @@
     font-family: "Anton";
 }
 
-
 /*--  Modal ends  --*/
 
 .text {
@@ -103,6 +102,13 @@
     margin-left: 100px;
 }
 
+.images {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
 .button {
     text-align: center;
     margin-left: 90px;
@@ -131,6 +137,21 @@
     padding: 5px;
     border-radius: 15px;
     text-shadow: #d9d9d9;
+}
+
+.center {
+    margin: 0;
+    margin-right: 19px;
+    background-color: #f2f2f2;
+    background-size: cover;
+}
+
+.blackend {
+    background-image: url(../images/index/blackend.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: 38px;
+    margin-right: 24px;
 }
 
 h1 {
@@ -184,12 +205,6 @@ input {
 
 /*--   Gallery starts  --*/
 
-.fancybox-slide.watermark .fancybox-spaceball {
-    background-image: url('https://fancyapps.com/GJbkSPU.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 /*--   Gallery ends  --*/
 
 /*--   Video starts  --*/
@@ -229,7 +244,7 @@ iframe {
 }
 
 .centerTable {
-    margin: 60px;
+    margin: 0 auto;
 }
 
 tr:nth-child(even) {
@@ -349,8 +364,20 @@ tr:nth-child(even) {
         font-size: small;
     }
 
+    .center {
+        margin: 0;
+        margin-right: 0px;
+        background-color: #f2f2f2;
+        background-size: cover;
+    }
+
+    .blackend {
+        background: none;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .centerTable {
-        margin: 20px;
+        margin: 0 auto;
     }
 
     .row {
@@ -454,7 +481,7 @@ tr:nth-child(even) {
     }
 
     .centerTable {
-        margin: 60px;
+        margin: 0 auto;
     }
 
     /*--  iframe starts  --*/
@@ -531,10 +558,21 @@ tr:nth-child(even) {
         font-size: small;
     }
 
+    .center {
+        margin-left: 110px;
+        margin-right: 0px;
+        background-color: #f2f2f2;
+        background-size: cover;
+    }
 
+    .blackend {
+        background: none;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
     .centerTable {
-        margin: 60px;
+        margin: 0 auto;
     }
 
     /*--  iframe starts  --*/
@@ -611,8 +649,15 @@ tr:nth-child(even) {
         font-size: medium;
     }
 
+    .center {
+        margin-left: 220px;
+        margin-right: 0px;
+        background-color: #f2f2f2;
+        background-size: cover;
+    }
+
     .centerTable {
-        margin: 30px;
+        margin: 0 auto;
     }
 
     /*--  iframe starts  --*/
@@ -684,8 +729,23 @@ tr:nth-child(even) {
         font-size: large;
     }
 
+    .blackend {
+        background-image: url(../images/index/blackend.jpg);
+        background-position: right;
+        background-repeat: no-repeat;
+        margin-left: 30px;
+        margin-right: 38px;
+    }
+
+    .center {
+        margin-left: 100px;
+        margin-right: 0px;
+        background-color: #f2f2f2;
+        background-size: cover;
+    }
+
     .centerTable {
-        margin: 60px;
+        margin: 0 auto;
     }
 
     .events {
