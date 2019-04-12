@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Anton|Prompt');
 
 
-/*--  Navbar  --*/
+/*--  Navbar starts --*/
 
 .navbar {
     background-color: #000000;
@@ -46,7 +46,9 @@
     color: #cccccc;
 }
 
-/*--  Logo  --*/
+/*--  Navbar ends --*/
+
+/*--  Logo starts  --*/
 
 .logo {
     margin: 0px;
@@ -65,6 +67,25 @@
     margin: auto;
     width: 100%;
     font-family: "Anton";
+}
+
+.sign-up {
+    margin-top: 25px;
+    font-family: "Anton";
+    font-size: 17px;
+}
+
+.form {
+    margin: 62px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50px;
 }
 
 /*--  Modal ends  --*/
@@ -119,18 +140,7 @@
     background-color: transparent;
 }
 
-.sign-up {
-    margin-top: 25px;
-    font-family: "Anton";
-    font-size: 17px;
-}
-
-.input {
-    margin: 5px;
-    padding: 5px;
-    border-radius: 15px;
-    text-shadow: #d9d9d9;
-}
+/*--  Index table starts  --*/
 
 .center {
     margin: 0;
@@ -146,6 +156,8 @@
     margin-left: 38px;
     margin-right: 24px;
 }
+
+/*--  Index table ends  --*/
 
 h1 {
     margin-top: 25px;
@@ -180,21 +192,6 @@ p {
     width: 100%;
     margin-top: 40px;
 }
-
-form {
-    margin: 62px;
-    padding: 5px;
-    text-align: center;
-}
-
-input {
-    margin: 5px;
-    padding: 5px;
-    border-radius: 50px;
-    text-shadow: #d9d9d9;
-}
-
-/*--  Section ends  --*/
 
 /*--   Gallery starts  --*/
 
@@ -340,7 +337,9 @@ tr:nth-child(even) {
 
 /*--  Events ends  --*/
 
-/*--  footer starts  --*/
+/*--  Section ends  --*/
+
+/*--  Footer starts  --*/
 
 .container-fluid {
     margin: auto;
@@ -375,11 +374,27 @@ tr:nth-child(even) {
     color: #ffffff;
 }
 
-/*--  footer ends  --*/
+/*--  Footer ends  --*/
 
-/*--  media query starts  --*/
+/*--  Media query starts  --*/
 
 @media (min-width: 320px) {
+    /*-- Section starts  --*/
+    /*-- Modal starts  --*/
+    .sign-up {
+        margin-top: 0px;
+        font-family: "Anton";
+        font-size: 10px;
+    }
+
+    form {
+        margin: 20px;
+        text-align: center;
+        font-size: medium;
+    }
+
+    /*-- Modal ends  --*/
+    /*-- Index read more btn starts  --*/
     .btn {
         text-align: center;
         margin-left: 83px;
@@ -390,6 +405,7 @@ tr:nth-child(even) {
         font-stretch: expanded;
     }
 
+    /*-- Index read more btn ends  --*/
     .text {
         height: 124px;
         width: 270px;
@@ -416,18 +432,6 @@ tr:nth-child(even) {
         width: 330px;
     }
 
-    .sign-up {
-        margin-top: 0px;
-        font-family: "Anton";
-        font-size: 10px;
-    }
-
-    form {
-        margin: 20px;
-        text-align: center;
-        font-size: medium;
-    }
-
     .personal {
         float: left;
         text-align: left;
@@ -451,7 +455,7 @@ tr:nth-child(even) {
         margin-left: 60px;
     }
 
-
+    /*--  Index table starts  --*/
     .center {
         margin: 0;
         margin-right: 0px;
@@ -465,10 +469,13 @@ tr:nth-child(even) {
         margin-right: 0px;
     }
 
+    /*--  Index table ends  --*/
+    /*--  Events table starts  --*/
     .centerTable {
         margin: 0 auto;
     }
 
+    /*--  Events table ends  --*/
     .row {
         display: -ms-flexbox;
         display: flex;
@@ -477,7 +484,7 @@ tr:nth-child(even) {
         margin: 30px;
     }
 
-    /*--  iframe starts  --*/
+    /*--  Iframe starts  --*/
     iframe {
         margin: 0 auto;
         display: block;
@@ -490,8 +497,9 @@ tr:nth-child(even) {
         height: 160px;
     }
 
-    /*--  iframe ends  --*/
-    /*--  footer starts  --*/
+    /*--  Iframe ends  --*/
+    /*--  Section ends  --*/
+    /*--  Footer starts  --*/
     .container-fluid {
         margin: auto;
         height: 70px;
@@ -508,10 +516,18 @@ tr:nth-child(even) {
         background-color: #000000;
     }
 
-    /*--  footer ends  --*/
+    /*--  Footer ends  --*/
 }
 
 @media (min-width: 575px) {
+    /*-- Section starts  --*/
+    /*-- Modal starts  --*/
+    .sign-up {
+        margin-top: 0px;
+    }
+
+    /*-- Modal ends  --*/
+    /*-- Index read more btn starts  --*/
     .btn {
         text-align: center;
         margin-left: 83px;
@@ -522,6 +538,7 @@ tr:nth-child(even) {
         font-stretch: expanded;
     }
 
+    /*-- Index read more btn ends  --*/
     .text {
         height: 123px;
         width: 320px;
@@ -548,10 +565,6 @@ tr:nth-child(even) {
         width: 330px
     }
 
-    .sign-up {
-        margin-top: 0px;
-    }
-
     .personal {
         float: left;
         text-align: left;
@@ -575,10 +588,12 @@ tr:nth-child(even) {
         margin-left: 90px;
     }
 
+    /*--  Events table starts  --*/
     .centerTable {
         margin: 0 auto;
     }
 
+    /*--  Events table ends  --*/
     .row {
         display: -ms-flexbox;
         display: flex;
@@ -588,7 +603,7 @@ tr:nth-child(even) {
         margin-left: 30px;
     }
 
-    /*--  iframe starts  --*/
+    /*--  Iframe starts  --*/
     iframe {
         margin: 0 auto;
         display: block;
@@ -601,8 +616,8 @@ tr:nth-child(even) {
         height: 225px;
     }
 
-    /*--  iframe ends  --*/
-    /*--  footer starts  --*/
+    /*--  Iframe ends  --*/
+    /*--  Footer starts  --*/
     .social-footer {
         margin: 40px;
         margin-top: 40px;
@@ -611,11 +626,13 @@ tr:nth-child(even) {
         display: inline-block;
         background-color: #000000;
     }
-    /*--  footer ends  --*/
+
+    /*--  Footer ends  --*/
 }
 
 @media (min-width: 768px) {
-
+    /*-- Section starts  --*/
+    /*-- Index read more btn starts  --*/
     .btn {
         text-align: center;
         margin-left: 200px;
@@ -626,6 +643,7 @@ tr:nth-child(even) {
         font-stretch: expanded;
     }
 
+    /*-- Index readn more btn ends  --*/
     .stage {
         position: relative;
         width: 100%;
@@ -662,18 +680,19 @@ tr:nth-child(even) {
         font-size: small;
     }
 
-    .center {
-        margin-left: 110px;
-        margin-right: 0px;
-        background-color: #f2f2f2;
-        background-size: cover;
-    }
-
     .images {
         height: 100px;
         width: 200px;
         margin: 20px;
         margin-left: 90px;
+    }
+
+    /*--  Index table starts  --*/
+    .center {
+        margin-left: 110px;
+        margin-right: 0px;
+        background-color: #f2f2f2;
+        background-size: cover;
     }
 
     .blackend {
@@ -682,11 +701,14 @@ tr:nth-child(even) {
         margin-right: 0px;
     }
 
+    /*--  Index table ends  --*/
+    /*--  Events table starts  --*/
     .centerTable {
         margin: 0 auto;
     }
 
-    /*--  gallery starts  --*/
+    /*--  Events table ends  --*/
+    /*--  Gallery starts  --*/
     .row {
         display: -ms-flexbox;
         display: flex;
@@ -695,8 +717,8 @@ tr:nth-child(even) {
         margin-right: 0px;
         margin-left: 120px;
     }
-    /*--  gallery ends  --*/
-    /*--  iframe starts  --*/
+    /*--  Gallery ends  --*/
+    /*--  Iframe starts  --*/
     iframe {
         margin: 0 auto;
         display: block;
@@ -709,8 +731,8 @@ tr:nth-child(even) {
         height: 300px;
     }
 
-    /*--  iframe ends  --*/
-    /*--  footer starts  --*/
+    /*--  Iframe ends  --*/
+    /*--  Footer starts  --*/
     .container-fluid {
         margin: auto;
         height: 90px;
@@ -718,10 +740,12 @@ tr:nth-child(even) {
         background-color: #000000;
     }
 
-    /*--  footer ends  --*/
+    /*--  Footer ends  --*/
 }
 
 @media (min-width: 992px) {
+    /*-- Section starts  --*/
+    /*-- Index read more btn starts  --*/
     .btn {
         text-align: center;
         margin-left: 213px;
@@ -732,6 +756,7 @@ tr:nth-child(even) {
         font-stretch: expanded;
     }
 
+    /*-- Index read more btn ends  --*/
     .stage {
         position: relative;
         width: 100%;
@@ -777,6 +802,7 @@ tr:nth-child(even) {
         margin-left: 90px;
     }
 
+    /*--  Index table starts  --*/
     .center {
         margin-left: 220px;
         margin-right: 0px;
@@ -784,11 +810,14 @@ tr:nth-child(even) {
         background-size: cover;
     }
 
+    /*--  Index table ends  --*/
+    /*--  Events table starts  --*/
     .centerTable {
         margin: 0 auto;
     }
 
-    /*--  gallery starts  --*/
+    /*--  Events table ends  --*/
+    /*--  Gallery starts  --*/
     .row {
         display: -ms-flexbox;
         display: flex;
@@ -803,8 +832,8 @@ tr:nth-child(even) {
         position: relative;
     }
 
-    /*--  gallery ends  --*/
-    /*--  iframe starts  --*/
+    /*--  Gallery ends  --*/
+    /*--  Iframe starts  --*/
     iframe {
         margin: 0 auto;
         display: block;
@@ -817,18 +846,21 @@ tr:nth-child(even) {
         height: 450px;
     }
 
-    /*--  iframe ends  --*/
-    /*--  footer starts --*/
+    /*--  Iframe ends  --*/
+    /*--  Footer starts --*/
     .container-fluid {
         margin: auto;
         height: 90px;
         width: 100%;
         background-color: #000000;
     }
-    /*--  footer ends  --*/
+
+    /*--  Footer ends  --*/
 }
 
 @media (min-width: 1200px) {
+    /*-- Section starts  --*/
+    /*-- Index read more btn starts  --*/
     .btn {
         text-align: center;
         margin-left: 290px;
@@ -839,6 +871,7 @@ tr:nth-child(even) {
         font-stretch: expanded;
     }
 
+    /*-- Index read more btn ends  --*/
     .stage {
         position: relative;
         width: 100%;
@@ -855,6 +888,11 @@ tr:nth-child(even) {
         margin-left: 116px;
         width: 502px;
         float: left;
+    }
+
+    .events {
+        position: relative;
+        width: 100%;
     }
 
     .personal {
@@ -880,6 +918,7 @@ tr:nth-child(even) {
         margin-left: 90px;
     }
 
+    /*--  Index table starts  --*/
     .blackend {
         background-image: url(../images/index/blackend.jpg);
         background-position: right;
@@ -895,16 +934,14 @@ tr:nth-child(even) {
         background-size: cover;
     }
 
+    /*--  Index table ends  --*/
+    /*--  Events table starts  --*/
     .centerTable {
         margin: 0 auto;
     }
 
-    .events {
-        position: relative;
-        width: 100%;
-    }
-
-    /*--  gallery starts  --*/
+    /*--  Events table ends  --*/
+    /*--  Gallery starts  --*/
     .row {
         display: -ms-flexbox;
         display: flex;
@@ -919,8 +956,8 @@ tr:nth-child(even) {
         position: relative;
         text-decoration: none;
     }
-    /*--  gallery ends  --*/
-    /*--  iframe starts  --*/
+    /*--  Gallery ends  --*/
+    /*--  Iframe starts  --*/
     iframe {
         margin: 0 auto;
         display: block;
@@ -933,8 +970,8 @@ tr:nth-child(even) {
         height: 500px;
     }
 
-    /*--  iframe ends  --*/
-    /*--  footer starts  --*/
+    /*--  Iframe ends  --*/
+    /*--  Footer starts  --*/
     .container-fluid {
         margin: auto;
         height: 90px;
@@ -942,6 +979,7 @@ tr:nth-child(even) {
         background-color: #000000;
     }
 
-    /*--  footer ends  --*/
-    /*--  media query ends  --*/
+    /*--  Footer ends  --*/
 }
+
+/*--  Media query ends  --*/
