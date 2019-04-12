@@ -198,11 +198,6 @@ input {
 
 /*--   Gallery starts  --*/
 
-.column {
-    margin: 25px;
-    margin-left: 50px;
-}
-
 .portfolio_lightbox {
     position: fixed;
     top: 0;
@@ -220,66 +215,74 @@ input {
 }
 
 .portfolio_lightbox_content {
-    width: 10%;
+    width: 63%;
     position: relative;
 }
 
-.close {
-    position: absolute;
+.closed {
+    position: relative;
     width: 35px;
     height: 35px;
     background-color: #262626;
-    margin-left: 260px;
-    margin-bottom: 0px;
-    border-radius: 25%;
+    margin-right: 30px;
+    float: right;
     text-decoration: none;
     align-items: center;
     display: flex;
     justify-content: center;
+    opacity: .5;
 }
 
-.close::after {
+.closed::after {
     content: "X";
     color: white;
     font-weight: 700;
 
 }
 
-.a .previous round  {
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px 20px;
+.a .previous {
+    display: inline-block;
+    padding: 20px 20px;
 }
 
-.a .next round  {
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px 20px;
+.a .next {
+    display: inline-block;
+    padding: 20px 20px;
 }
 
-.a .previous round:hover {
-  background-color: #ddd;
-  color: black;
+.a .previous:hover {
+    color: black;
+    text-decoration: none;
 }
 
-.a .next round:hover {
-  background-color: #ddd;
-  color: black;
+.a .next:hover {
+    color: black;
+    text-decoration: none;
 }
-
 
 .previous {
-  background-color: #f1f1f1;
-  color: black;
+    display: contents;
+    color: black;
+    float: left;
+    font-size: xx-large;
+    margin-top: 230px;
+
 }
 
 .next {
-  background-color: #4CAF50;
-  color: white;
+    color: white;
+    display: contents;
+    float: right;
+    font-size: xx-large;
+    margin-top: 230px;
 }
 
-.round {
-  border-radius: 50%;
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 30px;
 }
 
 /*--   Gallery ends  --*/
@@ -471,8 +474,7 @@ tr:nth-child(even) {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin-right: 0px;
-        margin-left: 0px;
+        margin: 30px;
     }
 
     /*--  iframe starts  --*/
@@ -577,6 +579,15 @@ tr:nth-child(even) {
         margin: 0 auto;
     }
 
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+
     /*--  iframe starts  --*/
     iframe {
         margin: 0 auto;
@@ -675,6 +686,16 @@ tr:nth-child(even) {
         margin: 0 auto;
     }
 
+    /*--  gallery starts  --*/
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 120px;
+    }
+    /*--  gallery ends  --*/
     /*--  iframe starts  --*/
     iframe {
         margin: 0 auto;
@@ -767,6 +788,22 @@ tr:nth-child(even) {
         margin: 0 auto;
     }
 
+    /*--  gallery starts  --*/
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 120px;
+    }
+
+    .portfolio_lightbox_content {
+        width: 84%;
+        position: relative;
+    }
+
+    /*--  gallery ends  --*/
     /*--  iframe starts  --*/
     iframe {
         margin: 0 auto;
@@ -868,9 +905,19 @@ tr:nth-child(even) {
     }
 
     /*--  gallery starts  --*/
-    .column {
-        margin: 25px;
-        margin-left: 50px;
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 35px;
+    }
+
+    .portfolio_lightbox_content {
+        width: 60%;
+        position: relative;
+        text-decoration: none;
     }
     /*--  gallery ends  --*/
     /*--  iframe starts  --*/
