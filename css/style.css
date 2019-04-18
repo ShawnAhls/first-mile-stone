@@ -123,10 +123,16 @@ input {
     margin-left: 100px;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .button {
     text-align: center;
     margin-left: 90px;
     margin-top: 25px;
+    margin-bottom: 20px;
     width: 50%;
     font-family: "Anton";
     font-size: large;
@@ -135,7 +141,7 @@ input {
 }
 
 .button a {
-    color: black;
+    color: red;
     text-decoration: none;
     background-color: transparent;
 }
@@ -155,6 +161,7 @@ input {
     background-repeat: no-repeat;
     margin-left: 38px;
     margin-right: 24px;
+    margin-bottom: 50px;
 }
 
 /*--  Index table ends  --*/
@@ -185,14 +192,27 @@ p {
     font-size: small;
 }
 
-.block {
+.button_block {
+    font-family: "Anton";
+    font-size: large;
+    font-stretch: expanded;
+    color: red;
     text-align: center;
     background-color: lightgrey;
-    height: 64px;
+    height: 27px;
     width: 100%;
     margin-top: 40px;
 }
 
+.button_block a {
+    color: red;
+    text-decoration: none;
+    width: 100%;
+}
+
+.button_block:hover {
+    color: black;
+}
 /*--   Gallery starts  --*/
 
 .portfolio_lightbox {
@@ -950,6 +970,7 @@ tr:nth-child(even) {
         text-align: center;
         margin-left: 290px;
         margin-top: 25px;
+        margin-bottom: 30px;
         width: 50%;
         font-family: "Anton";
         font-size: large;
@@ -970,7 +991,7 @@ tr:nth-child(even) {
     .james {
         height: 316px;
         margin-top: 20px;
-        margin-left: 161px;
+        margin-left: 110px;
         width: 502px;
         float: left;
     }
