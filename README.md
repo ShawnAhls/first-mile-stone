@@ -1,18 +1,3 @@
-image code w3school.com
-video clips from you tube
-info on members wikipedia
-images google
-events and about the band, Metallica web site
-
-
-Links
-Facebook
-Tweeter
-soundcloud
-instagram
-
-
-
 # Metallica Band
 
 The web site provides information about the band and their lateset music.
@@ -28,36 +13,54 @@ know more about the band. The video clips and mp3 songs are just a taste for the
 If the fans would like to enjoy the bands music they can have a look at the events 
 page to see when and where the band is performing.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you
-created as part of the design process. These files should themselves either be included in the project
-itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
 ## Features
 
+### Existing Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+Some of the features on the web page.
 
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+#### Feature 1
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Home page - Lastest Album
 
-Features Left to Implement
-Another feature idea
+Click on the video clip and hear the bands lastest song from their lastest album.
+
+#### Feature 2
+
+Events page
+
+By clicking on the events page, you can read up on all their up coming concerts.
+
+#### Feature 3
+
+Video page
+
+By clicking on any of the mp3 or video clips, you can listen to their older songs.
 
 
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other
-tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### New features
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
+To make a link to a ticket web site where they can buy tickets.
+Adding tickets availability on the events page.
+
+
+## Technologies Used
+
+HTML
+The contruction on the web site and the creation of the all the pages.
+
+CSS
+The Css code of used for manipulation of the size of images and the placing of the links and logo.
+
+Bootstrap
+This was used for making the web site user friiendly on all devices.
+https://getbootstrap.com/
+
+Font Awesome
+Was used the change the font of the read more.. link and the H1 headings
+https://fontawesome.com/
+
+## Testing
 In this section, you need to convince the assessor that you have conducted enough testing
 to legitimately believe that the site works well. Essentially, in this part you will want 
 to go over all of your user stories from the UX section and ensure that they all work as 
@@ -81,20 +84,33 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+Open up GitHub, ShawnAhls/metallica going to setting, click on setting and scrolling down to Github pages.
+once at GitHub Pages source, click on the drop down menu and clciked on the gh-pages,
+which created the following link "https://shawnahls.github.io/metallica/""
 
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+## Credits
 
-##Credits
+### Inspiration
 
-Content
+Bootstrap
+W3school
+YouTube
+CodePen
+Google
+Stackoverflow
 
-The text of about the band and the events was copied from the Metallica website
-The text for each band member under The members each one was copied from Wikipedia
-The Music videos was obtained from YouTube
-All the images was copied from Google Images
+### Source of content
+
+The text of about the band and the events was copied from the Metallica website.
+The text for each band member under The members each one was copied from Wikipedia.
+The Music videos was obtained from YouTube.
+All the images was copied from Google Images.
+The use of direct links to the bands social media sites.
+
+### Special Thanks
+
+Bootstrap for the use of the modal code, I have changed the fieldset of the modal and changed some of the css.
+
+Kevin Powell on youtube for the explanation of lightbox, I have used his explanation of portfolio but changed some of the code
+to the way I have on my web page and changed some of the css code.
