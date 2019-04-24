@@ -25,42 +25,11 @@
 				<li class="nav-item ml-2"><a class="nav-link" href="events.html">Events</a></li>
 				<li class="nav-item ml-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
 				<li class="nav-item ml-2"><a class="nav-link" href="video.html">Music</a></li>
-				<li class="nav-item ml-2"><a class="nav-link" href="#_" data-toggle="modal" data-target="#exampleModal">Sign Up</a></li>
+				<li class="nav-item ml-2"><a class="nav-link" href="bookings.html">Event bookings</a></li>
 			</ul>
 		</div>
 	</nav>
-	<!-- Modal -->
-	<section>
-		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title" id="exampleModalLabel">News Letter</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-					</div>
-					<section class="sign-up">
-						<div class="modal-body">
-							<div class="modal-main">
-								<fieldset>
-									<form>
-										<label for="name">Name :</label>
-										<input type="text" vlaue="" placeholder="Sydney Atkins" /></br>
-										<label for="email">Email :</label>
-										<input type="email" value="" pattern="name@email.com" placeholder="Name@email.com" /></br>
-									</form>
-								</fieldset>
-							</div>
-						</div>
-					</section>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary">Submit</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+
 	<!--  Header Ends  -->
 	<!--  Section Starts  -->
 	<main>
@@ -172,7 +141,7 @@
 			<iframe height="200%" width="75%" src="https://www.youtube.com/embed/QlF4rhAbwyc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</section>
 		<section>
-		    <div class="button_block"><a href="#top" type="button">Top</a></div>
+			<div class="button_block"><a href="#top" type="button">Top</a></div>
 		</section>
 	</main>
 	<!--  Section Ends  -->
@@ -181,12 +150,47 @@
 		<div class="social-footer align-left">
 			<i class="far fa-copyright">2019</i>
 		</div>
+		<div>
+			<button><a href="#_" data-toggle="modal" data-target="#exampleModal">Sign Up</a></button>
+		</div>
 		<div class="social-footer align-right">
 			<a href="https://twitter.com/metallica" target="blank"><i class="fab fa-twitter"></i></a>
 			<a href="https://www.facebook.com/Metallica/" target="blank"><i class="fab fa-facebook"></i></a>
 			<a href="https://www.instagram.com/metallica/" target="blank"><i class="fab fa-instagram"></i></a>
 			<a href="https://soundcloud.com/officialmetallica" target="blank"><i class="fab fa-soundcloud"></i></a>
 		</div>
+		<!-- Modal -->
+		<section>
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">News Letter</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                        </button>
+						</div>
+						<section class="sign-up">
+							<form>
+								<div class="modal-body">
+									<div class="modal-main">
+										<fieldset>
+											<label for="name">Name :</label>
+											<input id="name" type="text" placeholder="Sydney Atkins" /></br>
+											<label for="email">Email :</label>
+											<input id="email" type="email" placeholder="Name@email.com" /></br>
+										</fieldset>
+									</div>
+								</div>
+							</form>
+						</section>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary">Submit</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</footer>
 	<!--  Footer Ends  -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
