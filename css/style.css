@@ -136,10 +136,10 @@ input {
     font-family: "Anton";
     font-size: medium;
     font-stretch: expanded;
-    color:  #cccccc;
+    color: #cccccc;
 }
 
-.readmore a{
+.readmore a {
     color: red;
 }
 
@@ -159,11 +159,9 @@ input {
 
 .blackend {
     background-image: url(../images/index/blackend.jpg);
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
-    margin-left: 38px;
-    margin-right: 24px;
-    margin-bottom: 50px;
+    width: 100%;
 }
 
 /*--  Index table ends  --*/
@@ -187,13 +185,13 @@ h3 {
 }
 
 p {
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: left;
-        font-size: large;
-        max-width: max-content;
-    }
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: large;
+    max-width: max-content;
+}
 
 .button_block {
     font-family: "Anton";
@@ -366,7 +364,7 @@ tr:nth-child(even) {
 
 /*--  Footer starts  --*/
 
-.container-fluid {
+.social {
     margin: auto;
     height: 90px;
     width: 100%;
@@ -379,6 +377,15 @@ tr:nth-child(even) {
 
 .align-right {
     float: right;
+}
+
+.social-footer .news {
+    color: white;
+}
+
+.social-footer .news:hover {
+    color: red;
+    text-decoration: none;
 }
 
 .social-footer {
@@ -397,6 +404,22 @@ tr:nth-child(even) {
 
 .social-footer i {
     color: #ffffff;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #3f729b;
+}
+
+.fa-soundcloud:hover {
+    color: #ff7700;
 }
 
 /*--  Footer ends  --*/
@@ -556,7 +579,7 @@ tr:nth-child(even) {
     /*--  Iframe ends  --*/
     /*--  Section ends  --*/
     /*--  Footer starts  --*/
-    .container-fluid {
+    .social {
         margin: auto;
         height: 70px;
         width: 100%;
@@ -687,6 +710,13 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
+    .social {
+        margin: auto;
+        height: 70px;
+        width: 100%;
+        background-color: #000000;
+    }
+
     .social-footer {
         margin: 40px;
         margin-top: 40px;
@@ -830,7 +860,7 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .container-fluid {
+    .social {
         margin: auto;
         height: 90px;
         width: 100%;
@@ -967,7 +997,7 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts --*/
-    .container-fluid {
+    .social {
         margin: auto;
         height: 90px;
         width: 100%;
@@ -1044,8 +1074,7 @@ tr:nth-child(even) {
 
     /*--  Index table starts  --*/
     .blackend {
-        background-image: url(../images/index/blackend.jpg);
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
         margin-left: 30px;
         margin-right: 38px;
@@ -1116,7 +1145,7 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .container-fluid {
+    .social {
         margin: auto;
         height: 90px;
         width: 100%;
