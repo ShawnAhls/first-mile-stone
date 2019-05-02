@@ -152,7 +152,7 @@ input {
 
 .center {
     margin: 0;
-    margin-right: 19px;
+    margin-right: 0;
     background-color: #f2f2f2;
     background-size: cover;
 }
@@ -162,6 +162,28 @@ input {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+}
+
+.moreEvents {
+    font-family: "Anton";
+    font-size: large;
+    font-stretch: expanded;
+    color: white;
+    text-align: center;
+    height: 27px;
+    width: 100%;
+    margin-top: 40px;
+    float: right;
+}
+
+.moreEvents a {
+    color: red;
+    width: 100%
+}
+
+.moreEvents:hover {
+    color: red;
+    text-decoration: none;
 }
 
 /*--  Index table ends  --*/
@@ -347,7 +369,7 @@ iframe {
     margin: 0 auto;
 }
 
-tr:nth-child(even) {
+.eventsTable {
     background-color: #e6e6e6;
 }
 
@@ -507,17 +529,30 @@ tr:nth-child(even) {
     }
 
     /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 200px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
+
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
     .center {
         margin: 0;
         margin-right: 0px;
         background-color: #f2f2f2;
         background-size: cover;
-    }
-
-    .blackend {
-        background: none;
-        margin-left: 0px;
-        margin-right: 0px;
     }
 
     /*--  Index table ends  --*/
@@ -789,6 +824,28 @@ tr:nth-child(even) {
     }
 
     /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 359px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
+
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+
+
+
     .center {
         margin-left: 110px;
         margin-right: 0px;
@@ -796,11 +853,6 @@ tr:nth-child(even) {
         background-size: cover;
     }
 
-    .blackend {
-        background: none;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
 
     /*--  Index table ends  --*/
     /*--  Events table starts  --*/
@@ -933,6 +985,26 @@ tr:nth-child(even) {
     }
 
     /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 420px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
+
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+
     .center {
         margin-left: 220px;
         margin-right: 0px;
@@ -1076,15 +1148,30 @@ tr:nth-child(even) {
     .blackend {
         background-position: center;
         background-repeat: no-repeat;
-        margin-left: 30px;
-        margin-right: 38px;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 500px;
+        background-color: #f8f7f3;
+        z-index: 0;
     }
 
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
     .center {
-        margin-left: 100px;
-        margin-right: 0px;
-        background-color: #f2f2f2;
+        margin-left: auto;
+        margin-top: 183px;
+        margin-right: 0;
+        background-color: #b5b4b100;
         background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: x-large;
     }
 
     /*--  Index table ends  --*/
