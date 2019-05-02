@@ -157,6 +157,11 @@ input {
     background-size: cover;
 }
 
+.index-center {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .blackend {
     background-image: url(../images/index/blackend.jpg);
     background-position: center;
@@ -390,34 +395,36 @@ iframe {
     margin: auto;
     height: 90px;
     width: 100%;
+    text-align: center;
     background-color: #000000;
 }
 
-.social-footer .news {
+
+
+.social-news {
     color: white;
+    margin: 10px;
+    margin-top: 25px;
+    width: 33.333%;
 }
 
-.social-footer .news:hover {
+.social-news:hover {
     color: red;
     text-decoration: none;
 }
 
-.social-footer {
-    margin: 40px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    display: inline-block;
-    background-color: #000000;
-}
-
-.social-footer a {
+.social-media{
     color: #ffffff;
     margin: 10px;
+    margin-top: 25px;
+    width: 33.333%;
 }
 
-.social-footer i {
+.social-copy {
     color: #ffffff;
+    margin: 10px;
+    margin-top: 25px;
+    width: 33.333%;
 }
 
 .fa-twitter:hover {
@@ -541,10 +548,14 @@ iframe {
     }
 
     .center {
-        margin: 0;
+        margin-left: 0px;
+        margin-top: 4px;
         margin-right: 0px;
-        background-color: #f2f2f2;
+        background-color: #b5b4b100;
         background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: x-small;
     }
 
     /*--  Index table ends  --*/
@@ -592,9 +603,10 @@ iframe {
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
-        height: 160px;
+        height: 195px;
+        width: 100%;
     }
 
     .music {
@@ -612,16 +624,6 @@ iframe {
         width: 100%;
         background-color: #000000;
     }
-
-    .social-footer {
-        margin: 10px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        text-decoration: none;
-        display: inline-block;
-        background-color: #000000;
-    }
-
     /*--  Footer ends  --*/
 }
 
@@ -695,7 +697,39 @@ iframe {
         margin: 20px;
         margin-left: 90px;
     }
+    /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 359px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
 
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .center {
+        margin-left: 5px;
+        margin-top: 133px;
+        margin-right: 0px;
+        background-color: #b5b4b100;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: medium;
+    }
+
+
+    /*--  Index table ends  --*/
     /*--  Events table starts  --*/
     .centerTable {
         margin: 0 auto;
@@ -724,9 +758,10 @@ iframe {
 
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 225px;
+        width: 100%;
     }
 
     .music {
@@ -741,15 +776,6 @@ iframe {
         margin: auto;
         height: 70px;
         width: 100%;
-        background-color: #000000;
-    }
-
-    .social-footer {
-        margin: 40px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        text-decoration: none;
-        display: inline-block;
         background-color: #000000;
     }
 
@@ -835,14 +861,15 @@ iframe {
         z-index: 5;
     }
 
-
-
-
     .center {
-        margin-left: 110px;
+        margin-left: 5px;
+        margin-top: 133px;
         margin-right: 0px;
-        background-color: #f2f2f2;
+        background-color: #b5b4b100;
         background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: medium;
     }
 
 
@@ -891,9 +918,10 @@ iframe {
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 300px;
+        width: 75%;
     }
 
     .music {
@@ -998,10 +1026,14 @@ iframe {
 
 
     .center {
-        margin-left: 220px;
-        margin-right: 0px;
-        background-color: #f2f2f2;
+        margin-left: auto;
+        margin-top: 155px;
+        margin-right: 0;
+        background-color: #b5b4b100;
         background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: larger;
     }
 
     /*--  Index table ends  --*/
@@ -1048,9 +1080,10 @@ iframe {
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 450px;
+        width: 75%;
     }
 
     .music {
@@ -1211,9 +1244,174 @@ iframe {
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 500px;
+        width: 75%;
+    }
+
+    .music {
+        margin: 10px auto;
+        display: block;
+        height: 500px;
+    }
+
+    /*--  Iframe ends  --*/
+    /*--  Footer starts  --*/
+    .social {
+        margin: auto;
+        height: 90px;
+        width: 100%;
+        background-color: #000000;
+    }
+
+    /*--  Footer ends  --*/
+}
+
+@media (min-width: 2560px) {
+    /*-- Section starts  --*/
+    /*-- Index read more btn starts  --*/
+    .button_readmore {
+        text-align: center;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 13%;
+        font-family: "Anton";
+        font-size: smaller;
+        font-stretch: expanded;
+    }
+
+
+
+    /*-- Index read more btn ends  --*/
+    .stage {
+        position: relative;
+        width: 100%;
+    }
+
+    .members {
+        position: relative;
+        width: 100%;
+    }
+
+    .james {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+
+    .events {
+        position: relative;
+        width: 100%;
+    }
+
+    .personal {
+        float: right;
+        text-align: left;
+        margin-left: 30px;
+        margin-right: 39px;
+        font-size: large;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        font-size: large;
+        max-width: max-content;
+    }
+
+
+    .images {
+        height: 100px;
+        width: 200px;
+        margin: 20px;
+        margin-left: 90px;
+    }
+
+    /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 500px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
+
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+    .center {
+        margin-left: auto;
+        margin-top: 183px;
+        margin-right: 0;
+        background-color: #b5b4b100;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    /*--  Index table ends  --*/
+    /*--  Events table starts  --*/
+    .centerTable {
+        margin: 0 auto;
+    }
+
+    /*--  Events table ends  --*/
+    /*--  Gallery starts  --*/
+    .row_gallery {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 0px;
+        margin-left: 35px;
+    }
+
+    .large {
+        width: 800px;
+        height: 533px;
+    }
+
+    .portfolio_lightbox_content {
+        width: 60%;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .closed {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        background-color: #262626;
+        margin-right: 20px;
+        float: right;
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        opacity: .5;
+    }
+
+    /*--  Gallery ends  --*/
+    /*--  Iframe starts  --*/
+    iframe {
+        margin-top: 30px;
+        display: block;
+        height: 500px;
+        width: 75%;
     }
 
     .music {
