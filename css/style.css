@@ -391,40 +391,61 @@ iframe {
 
 /*--  Footer starts  --*/
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Anton", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    margin-top: 30px;
+}
+
 .social {
     margin: auto;
-    height: 90px;
+    padding-bottom: 15px;
     width: 100%;
     text-align: center;
     background-color: #000000;
 }
 
+.social {
+    height: 120px;
+}
 
+.social-links {
+    padding-bottom: 15px;
+}
 
-.social-news {
+.social-links a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    margin: 10px;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links-subscribe {
     color: white;
     margin: 10px;
     margin-top: 25px;
     width: 33.333%;
 }
 
-.social-news:hover {
+.social-links-subscribe:hover {
     color: red;
     text-decoration: none;
 }
 
-.social-media{
-    color: #ffffff;
-    margin: 10px;
-    margin-top: 25px;
-    width: 33.333%;
-}
-
-.social-copy {
-    color: #ffffff;
-    margin: 10px;
-    margin-top: 25px;
-    width: 33.333%;
+#footer-details {
+    margin: 20px;
 }
 
 .fa-twitter:hover {
@@ -618,7 +639,7 @@ iframe {
     /*--  Iframe ends  --*/
     /*--  Section ends  --*/
     /*--  Footer starts  --*/
-    .social {
+    .social-links {
         margin: auto;
         height: 70px;
         width: 100%;
@@ -772,7 +793,7 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .social {
+    .social-links {
         margin: auto;
         height: 70px;
         width: 100%;
@@ -932,7 +953,7 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .social {
+    .social-links {
         margin: auto;
         height: 90px;
         width: 100%;
@@ -1094,7 +1115,7 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts --*/
-    .social {
+    .social-links {
         margin: auto;
         height: 90px;
         width: 100%;
@@ -1258,7 +1279,7 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .social {
+    .social-links {
         margin: auto;
         height: 90px;
         width: 100%;
@@ -1422,7 +1443,7 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .social {
+    .social-links {
         margin: auto;
         height: 90px;
         width: 100%;
