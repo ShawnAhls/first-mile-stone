@@ -35,9 +35,9 @@
         <form>
             <section>
                 <label for="name">Name :</label>
-                <input id="name" type="text" placeholder="Sydney Atkins" /></br>
+                <input class="bookings" id="name" type="text" placeholder="Sydney Atkins" /></br>
                 <label for="email">Email :</label>
-                <input id="email" type="email" placeholder="Name@email.com" /></br>
+                <input class="bookings" id="email" type="email" placeholder="Name@email.com" /></br>
                 <form class="col-lg-4">
                     <p>Please select a date</p>
                     <p>Day</p>
@@ -73,7 +73,8 @@
                         <option value="Nov">November</option>
                         <option value="Dec">December</option>
                     </select>
-                </form></br>
+                </form>
+                </br>
                 <label for="events">Event :</label></br>
                 <textarea id="events" cols="50" rows="10" placeholder="More details"></textarea>
             </section>
@@ -85,49 +86,28 @@
     <!--  Section Ends  -->
     <!--  Footer Starts  -->
     <footer class="container-fluid social">
-        <div class="social-footer align-left">
-            <i class="far fa-copyright">2019</i>
-        </div>
-        <!-- Modal -->
-        <div>
-            <button><a href="#_" data-toggle="modal" data-target="#exampleModal">Sign Up</a></button>
-        </div>
-        <section>
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">News Letter</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                               <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <form>
-                            <section class="sign-up">
-                                <div class="modal-body">
-                                    <div class="modal-main">
-                                        <fieldset>
-                                            <label for="name">Name :</label>
-                                            <input id="name" type="text" placeholder="Sydney Atkins" /></br>
-                                            <label for="email">Email :</label>
-                                            <input id="email" type="email" placeholder="Name@email.com" /></br>
-                                        </fieldset>
-                                    </div>
-                                </div>
-                            </section>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary">Submit</button>
-                            </div>
-                        </form>
-                    </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Newsletter</h5>
+                <form>
+					<div>
+					<input class="mail" id="email" type="email" placeholder="Name@email.com" />
+					<button type="submit" class="button_email">Subscribe</button>
+					</div>
+				</form>
+            </div>
+            <div class="col-sm-4 uppercase general-sub">
+                <i class="far fa-copyright">2019</i>
+            </div>
+            <div class="col-sm-4">
+                <h5 class="uppercase general-sub">Social Media</h5>
+                <div>
+                    <a class="social-links" href="https://twitter.com/metallica" target="blank"><i class="fab fa-twitter"></i></a>
+                    <a class="social-links" href="https://www.facebook.com/Metallica/" target="blank"><i class="fab fa-facebook"></i></a>
+                    <a class="social-links" href="https://www.instagram.com/metallica/" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a class="social-links" href="https://soundcloud.com/officialmetallica" target="blank"><i class="fab fa-soundcloud"></i></a>
                 </div>
             </div>
-        </section>
-        <div class="social-footer align-right">
-            <a href="https://twitter.com/metallica" target="blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com/Metallica/" target="blank"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/metallica/" target="blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://soundcloud.com/officialmetallica" target="blank"><i class="fab fa-soundcloud"></i></a>
         </div>
     </footer>
     <!--  Footer Ends  -->

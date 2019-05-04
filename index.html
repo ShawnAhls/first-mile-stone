@@ -106,7 +106,12 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<h5 class="uppercase general-sub">Newsletter</h5>
-				<a class="social-links-subscribe" href="#_" data-toggle="modal" data-target="#exampleModal">Subscribe</a>
+				<form>
+					<div>
+						<input type="email" class="mail" id="email" placeholder="name@example.com">
+						<button type="submit" class="button_email">Subscribe</button>
+					</div>
+				</form>
 			</div>
 			<div class="col-sm-4 uppercase general-sub">
 				<i class="far fa-copyright">2019</i>
@@ -121,38 +126,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- Modal -->
-		<section>
-			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<form>
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<div class="modal-header">
-								<h5 class="modal-title" id="exampleModalLabel">News Letter</h5>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                   <span aria-hidden="true">&times;</span>
-                                </button>
-							</div>
-							<section class="sign-up">
-								<div class="modal-body">
-									<div class="modal-main">
-										<fieldset>
-											<label for="name">Name :</label>
-											<input id="name" type="text" placeholder="Sydney Atkins" /></br>
-											<label for="email">Email :</label>
-											<input id="email" type="email" placeholder="Name@email.com" /></br>
-										</fieldset>
-									</div>
-								</div>
-							</section>
-							<div class="modal-footer">
-								<button type="button" class="btn btn-secondary">Submit</button>
-							</div>
-						</div>
-					</div>
-				</form>
-			</div>
-		</section>
 	</footer>
 	<!--  Footer Ends  -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

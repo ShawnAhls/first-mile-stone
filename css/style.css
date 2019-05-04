@@ -63,12 +63,6 @@
 
 /*-- Modal starts  --*/
 
-.modal {
-    margin: auto;
-    width: 100%;
-    font-family: "Anton";
-}
-
 .sign-up {
     margin-top: 25px;
     font-family: "Anton";
@@ -82,7 +76,7 @@
     border-radius: 50px;
 }
 
-input {
+.bookings {
     margin: 5px;
     padding: 5px;
     border-radius: 50px;
@@ -407,15 +401,17 @@ iframe {
     padding-bottom: 15px;
     width: 100%;
     text-align: center;
+    height: 120px;
     background-color: #000000;
 }
 
-.social {
-    height: 120px;
-}
-
 .social-links {
-    padding-bottom: 15px;
+    margin: 10px;
+    height: 90px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    ;
 }
 
 .social-links a i {
@@ -426,22 +422,7 @@ iframe {
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
 
-.social-links-subscribe {
-    color: white;
-    margin: 10px;
-    margin-top: 25px;
-    width: 33.333%;
-}
-
-.social-links-subscribe:hover {
-    color: red;
-    text-decoration: none;
 }
 
 #footer-details {
@@ -462,6 +443,23 @@ iframe {
 
 .fa-soundcloud:hover {
     color: #ff7700;
+}
+
+.mail {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 40px;
+    background-color: #f2f2f2;
+}
+
+.button_email {
+    background-color: black;
+    color: white;
+}
+
+.button_email:hover {
+    color: black;
+    background-color: white;
 }
 
 /*--  Footer ends  --*/
@@ -639,10 +637,24 @@ iframe {
     /*--  Iframe ends  --*/
     /*--  Section ends  --*/
     /*--  Footer starts  --*/
-    .social-links {
+    .social {
         margin: auto;
-        height: 70px;
+        padding: 0;
         width: 100%;
+        text-align: center;
+        height: 304px;
+        background-color: #000000;
+    }
+
+    .button_email {
+        margin-top: 10px;
+    }
+
+    .social-links {
+        margin: 10px;
+        height: 90px;
+        width: 100%;
+        color: #ffffff;
         background-color: #000000;
     }
     /*--  Footer ends  --*/
@@ -793,10 +805,24 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .social-links {
+    .social {
         margin: auto;
-        height: 70px;
+        padding-bottom: 15px;
         width: 100%;
+        text-align: center;
+        height: 264px;
+        background-color: #000000;
+    }
+
+    .button_email {
+        margin-top: 10px;
+    }
+
+    .social-links {
+        margin: 10px;
+        height: 90px;
+        width: 100%;
+        color: #ffffff;
         background-color: #000000;
     }
 
@@ -953,10 +979,24 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .social-links {
+    .social {
         margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
+    .button_email {
+        margin-top: 10px;
+    }
+
+    .social-links {
+        margin: 10px;
         height: 90px;
         width: 100%;
+        color: #ffffff;
         background-color: #000000;
     }
 
@@ -1115,10 +1155,21 @@ iframe {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts --*/
-    .social-links {
+    .social {
         margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
+
+    .social-links {
+        margin: 10px;
         height: 90px;
         width: 100%;
+        color: #ffffff;
         background-color: #000000;
     }
 
@@ -1280,9 +1331,10 @@ iframe {
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
     .social-links {
-        margin: auto;
+        margin: 10px;
         height: 90px;
         width: 100%;
+        color: #ffffff;
         background-color: #000000;
     }
 
@@ -1444,9 +1496,10 @@ iframe {
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
     .social-links {
-        margin: auto;
+        margin: 10px;
         height: 90px;
         width: 100%;
+        color: #ffffff;
         background-color: #000000;
     }
 
