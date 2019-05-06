@@ -125,6 +125,27 @@
     float: left;
 }
 
+.lars {
+    height: 316px;
+    margin-left: 179px;
+    width: 502px;
+    float: left;
+}
+
+.kirk {
+    height: 316px;
+    margin-left: 179px;
+    width: 502px;
+    float: left;
+}
+
+.robert {
+    height: 316px;
+    margin-left: 179px;
+    width: 502px;
+    float: left;
+}
+
 .personal {
     float: right;
     text-align: left;
@@ -557,6 +578,24 @@ iframe {
         width: 330px;
     }
 
+    .lars {
+        margin-left: 22px;
+        height: 190px;
+        width: 330px;
+    }
+
+    .kirk {
+        margin-left: 22px;
+        height: 190px;
+        width: 330px;
+    }
+
+    .robert {
+        margin-left: 22px;
+        height: 190px;
+        width: 330px;
+    }
+
     .personal {
         float: left;
         text-align: left;
@@ -745,7 +784,6 @@ iframe {
         font-stretch: expanded;
     }
 
-
     /*-- Index read more btn ends  --*/
     .text {
         height: 123px;
@@ -768,6 +806,24 @@ iframe {
     }
 
     .james {
+        margin-left: 120px;
+        height: 190px;
+        width: 330px
+    }
+    
+    .lars {
+        margin-left: 120px;
+        height: 190px;
+        width: 330px
+    }
+    
+    .kirk {
+        margin-left: 120px;
+        height: 190px;
+        width: 330px
+    }
+    
+    .robert {
         margin-left: 120px;
         height: 190px;
         width: 330px
@@ -826,7 +882,6 @@ iframe {
         text-align: center;
         font-size: medium;
     }
-
 
     /*--  Index table ends  --*/
     /*--  Events table starts  --*/
@@ -931,7 +986,6 @@ iframe {
         font-stretch: expanded;
     }
 
-
     /*-- Index readn more btn ends  --*/
     .stage {
         position: relative;
@@ -949,6 +1003,27 @@ iframe {
     }
 
     .james {
+        height: 237px;
+        margin: 2px;
+        margin-left: 147px;
+        width: 59%;
+    }
+    
+    .lars {
+        height: 237px;
+        margin: 2px;
+        margin-left: 147px;
+        width: 59%;
+    }
+    
+    .kirk {
+        height: 237px;
+        margin: 2px;
+        margin-left: 147px;
+        width: 59%;
+    }
+    
+    .robert {
         height: 237px;
         margin: 2px;
         margin-left: 147px;
@@ -1007,7 +1082,6 @@ iframe {
         text-align: center;
         font-size: medium;
     }
-
 
     /*--  Index table ends  --*/
     /*--  Events table starts  --*/
@@ -1114,8 +1188,6 @@ iframe {
         font-stretch: expanded;
     }
 
-
-
     /*-- Index read more btn ends  --*/
     .stage {
         position: relative;
@@ -1133,6 +1205,27 @@ iframe {
     }
 
     .james {
+        height: 250px;
+        margin: 2px;
+        margin-left: 70px;
+        width: 40%;
+    }
+    
+    .lars {
+        height: 250px;
+        margin: 2px;
+        margin-left: 70px;
+        width: 40%;
+    }
+    
+    .kirk {
+        height: 250px;
+        margin: 2px;
+        margin-left: 70px;
+        width: 40%;
+    }
+    
+    .robert {
         height: 250px;
         margin: 2px;
         margin-left: 70px;
@@ -1182,7 +1275,6 @@ iframe {
         width: 100%;
         z-index: 5;
     }
-
 
     .center {
         margin-left: auto;
@@ -1262,7 +1354,6 @@ iframe {
         background-color: #000000;
     }
 
-
     .social-links {
         margin: 10px;
         height: 90px;
@@ -1309,6 +1400,30 @@ iframe {
     }
 
     .james {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .lars {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .kirk {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .robert {
         height: 316px;
         margin-top: 20px;
         margin-left: 110px;
@@ -1490,6 +1605,30 @@ iframe {
     }
 
     .james {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .lars {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .kirk {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .robert {
         height: 316px;
         margin-top: 20px;
         margin-left: 110px;
