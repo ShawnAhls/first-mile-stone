@@ -43,7 +43,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #cccccc;
+    color: #b3b3b3;
 }
 
 /*--  Navbar ends --*/
@@ -61,13 +61,7 @@
 
 /*--  Section starts  --*/
 
-/*-- Modal starts  --*/
-
-.modal {
-    margin: auto;
-    width: 100%;
-    font-family: "Anton";
-}
+/*-- Bookings starts  --*/
 
 .sign-up {
     margin-top: 25px;
@@ -82,13 +76,27 @@
     border-radius: 50px;
 }
 
-input {
+.bookings {
     margin: 5px;
     padding: 5px;
     border-radius: 50px;
 }
 
-/*--  Modal ends  --*/
+.button_bookings {
+    background-color: white;
+    color: black;
+}
+
+.button_bookings:hover {
+    background-color: black;
+    color: white;
+}
+
+.details {
+    max-width: 80%;
+}
+
+/*--  Bookings ends  --*/
 
 .text {
     height: 200px;
@@ -117,6 +125,27 @@ input {
     float: left;
 }
 
+.lars {
+    height: 316px;
+    margin-left: 179px;
+    width: 502px;
+    float: left;
+}
+
+.kirk {
+    height: 316px;
+    margin-left: 179px;
+    width: 502px;
+    float: left;
+}
+
+.robert {
+    height: 316px;
+    margin-left: 179px;
+    width: 502px;
+    float: left;
+}
+
 .personal {
     float: right;
     text-align: left;
@@ -128,48 +157,75 @@ input {
     margin-left: 0;
 }
 
-.button {
-    text-align: center;
-    margin-left: 90px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    width: 50%;
+.readmore {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 13%;
     font-family: "Anton";
-    font-size: large;
+    font-size: medium;
     font-stretch: expanded;
-    color: #e6e6e6;
+    color: #b3b3b3;
 }
 
-.button a {
+.readmore a {
+    color: red;
+}
+
+.readmore:hover {
     color: red;
     text-decoration: none;
-    background-color: transparent;
 }
 
 /*--  Index table starts  --*/
 
 .center {
     margin: 0;
-    margin-right: 19px;
+    margin-right: 0;
     background-color: #f2f2f2;
     background-size: cover;
 }
 
+.index-center {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .blackend {
     background-image: url(../images/index/blackend.jpg);
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
-    margin-left: 38px;
-    margin-right: 24px;
-    margin-bottom: 50px;
+    width: 100%;
+}
+
+.moreEvents {
+    font-family: "Anton";
+    font-size: large;
+    font-stretch: expanded;
+    color: white;
+    text-align: center;
+    height: 27px;
+    width: 100%;
+    margin-top: 40px;
+    float: right;
+}
+
+.moreEvents a {
+    color: red;
+    width: 100%
+}
+
+.moreEvents:hover {
+    color: red;
+    text-decoration: none;
 }
 
 /*--  Index table ends  --*/
 
 h1 {
-    margin-top: 25px;
+    margin-top: 30px;
     text-align: center;
-    text-shadow: 2px 7px 10px black;
+    text-shadow: 4px 6px 8px grey;
     font-family: "Prompt";
 }
 
@@ -186,10 +242,11 @@ h3 {
 
 p {
     margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
-    font-size: small;
+    font-size: large;
+    max-width: max-content;
 }
 
 .button_block {
@@ -213,6 +270,8 @@ p {
 .button_block:hover {
     color: black;
 }
+
+
 /*--   Gallery starts  --*/
 
 .portfolio_lightbox {
@@ -248,7 +307,7 @@ p {
     align-items: center;
     display: flex;
     justify-content: center;
-    opacity: .5;
+    opacity: .8;
 }
 
 .closed::after {
@@ -303,6 +362,28 @@ p {
     margin-left: 70px;
 }
 
+.button_block_gallery {
+    font-family: "Anton";
+    font-size: large;
+    font-stretch: expanded;
+    color: red;
+    text-align: center;
+    background-color: lightgrey;
+    height: 27px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.button_block_gallery a {
+    color: red;
+    text-decoration: none;
+    width: 100%;
+}
+
+.button_block_gallery:hover {
+    color: black;
+}
+
 /*--   Gallery ends  --*/
 
 /*--   Video starts  --*/
@@ -345,7 +426,7 @@ iframe {
     margin: 0 auto;
 }
 
-tr:nth-child(even) {
+.eventsTable {
     background-color: #e6e6e6;
 }
 
@@ -362,37 +443,81 @@ tr:nth-child(even) {
 
 /*--  Footer starts  --*/
 
-.container-fluid {
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Anton", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    margin-top: 30px;
+}
+
+.social {
     margin: auto;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    height: 120px;
+    background-color: #000000;
+}
+
+.social-links {
+    margin: 10px;
     height: 90px;
     width: 100%;
-    background-color: #000000;
-}
-
-.align-left {
-    float: left;
-}
-
-.align-right {
-    float: right;
-}
-
-.social-footer {
-    margin: 40px;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    display: inline-block;
-    background-color: #000000;
-}
-
-.social-footer a {
     color: #ffffff;
+    background-color: #000000;
+    ;
+}
+
+.social-links a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
     margin: 10px;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+
 }
 
-.social-footer i {
-    color: #ffffff;
+#footer-details {
+    margin: 20px;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #3f729b;
+}
+
+.fa-soundcloud:hover {
+    color: #ff7700;
+}
+
+.mail {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 40px;
+    background-color: #f2f2f2;
+}
+
+.button_email {
+    background-color: black;
+    color: white;
+}
+
+.button_email:hover {
+    color: black;
+    background-color: white;
 }
 
 /*--  Footer ends  --*/
@@ -416,13 +541,13 @@ tr:nth-child(even) {
 
     /*-- Modal ends  --*/
     /*-- Index read more btn starts  --*/
-    .btn {
+    .button_readmore {
         text-align: center;
-        margin-left: 83px;
-        margin-top: 25px;
-        width: 50%;
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 30%;
         font-family: "Anton";
-        font-size: large;
+        font-size: smaller;
         font-stretch: expanded;
     }
 
@@ -453,6 +578,24 @@ tr:nth-child(even) {
         width: 330px;
     }
 
+    .lars {
+        margin-left: 22px;
+        height: 190px;
+        width: 330px;
+    }
+
+    .kirk {
+        margin-left: 22px;
+        height: 190px;
+        width: 330px;
+    }
+
+    .robert {
+        margin-left: 22px;
+        height: 190px;
+        width: 330px;
+    }
+
     .personal {
         float: left;
         text-align: left;
@@ -463,10 +606,11 @@ tr:nth-child(even) {
 
     p {
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: left;
         font-size: small;
+        max-width: max-content;
     }
 
     .images {
@@ -477,17 +621,34 @@ tr:nth-child(even) {
     }
 
     /*--  Index table starts  --*/
-    .center {
-        margin: 0;
-        margin-right: 0px;
-        background-color: #f2f2f2;
-        background-size: cover;
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 200px;
+        background-color: #f8f7f3;
+        z-index: 0;
     }
 
-    .blackend {
-        background: none;
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .center {
         margin-left: 0px;
+        margin-top: 4px;
         margin-right: 0px;
+        background-color: #b5b4b100;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: x-small;
     }
 
     /*--  Index table ends  --*/
@@ -529,15 +690,38 @@ tr:nth-child(even) {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
+    }
+
+    .button_block_gallery {
+        font-family: "Anton";
+        font-size: large;
+        font-stretch: expanded;
+        color: red;
+        text-align: center;
+        background-color: lightgrey;
+        height: 27px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .button_block_gallery a {
+        color: red;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .button_block_gallery:hover {
+        color: black;
     }
 
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
-        height: 160px;
+        height: 195px;
+        width: 100%;
     }
 
     .music {
@@ -549,22 +733,35 @@ tr:nth-child(even) {
     /*--  Iframe ends  --*/
     /*--  Section ends  --*/
     /*--  Footer starts  --*/
-    .container-fluid {
+    .social {
         margin: auto;
-        height: 70px;
+        padding: 0;
         width: 100%;
+        text-align: center;
+        height: 304px;
         background-color: #000000;
     }
 
-    .social-footer {
+    .button_email {
+        margin-top: 10px;
+    }
+
+    .social-links {
         margin: 10px;
-        margin-top: 20px;
-        margin-bottom: 10px;
-        text-decoration: none;
-        display: inline-block;
+        height: 90px;
+        width: 100%;
+        color: #ffffff;
         background-color: #000000;
     }
 
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 304px;
+        background-color: #000000;
+    }
     /*--  Footer ends  --*/
 }
 
@@ -577,7 +774,7 @@ tr:nth-child(even) {
 
     /*-- Modal ends  --*/
     /*-- Index read more btn starts  --*/
-    .btn {
+    .button_readmore {
         text-align: center;
         margin-left: 83px;
         margin-top: 25px;
@@ -613,6 +810,24 @@ tr:nth-child(even) {
         height: 190px;
         width: 330px
     }
+    
+    .lars {
+        margin-left: 120px;
+        height: 190px;
+        width: 330px
+    }
+    
+    .kirk {
+        margin-left: 120px;
+        height: 190px;
+        width: 330px
+    }
+    
+    .robert {
+        margin-left: 120px;
+        height: 190px;
+        width: 330px
+    }
 
     .personal {
         float: left;
@@ -624,10 +839,11 @@ tr:nth-child(even) {
 
     p {
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: left;
         font-size: small;
+        max-width: max-content;
     }
 
     .images {
@@ -636,7 +852,38 @@ tr:nth-child(even) {
         margin: 20px;
         margin-left: 90px;
     }
+    /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 359px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
 
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .center {
+        margin-left: 5px;
+        margin-top: 133px;
+        margin-right: 0px;
+        background-color: #b5b4b100;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: medium;
+    }
+
+    /*--  Index table ends  --*/
     /*--  Events table starts  --*/
     .centerTable {
         margin: 0 auto;
@@ -663,11 +910,26 @@ tr:nth-child(even) {
         height: 337px;
     }
 
+    .closed {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        background-color: #262626;
+        margin-right: 0px;
+        float: right;
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        opacity: .8;
+    }
+
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 225px;
+        width: 100%;
     }
 
     .music {
@@ -678,12 +940,33 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .social-footer {
-        margin: 40px;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        text-decoration: none;
-        display: inline-block;
+    .social {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 264px;
+        background-color: #000000;
+    }
+
+    .button_email {
+        margin-top: 10px;
+    }
+
+    .social-links {
+        margin: 10px;
+        height: 90px;
+        width: 100%;
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 264px;
         background-color: #000000;
     }
 
@@ -693,13 +976,13 @@ tr:nth-child(even) {
 @media (min-width: 768px) {
     /*-- Section starts  --*/
     /*-- Index read more btn starts  --*/
-    .btn {
+    .button_readmore {
         text-align: center;
-        margin-left: 200px;
-        margin-top: 25px;
-        width: 50%;
+        margin-left: auto;
+        margin-top: 0;
+        width: 13%;
         font-family: "Anton";
-        font-size: large;
+        font-size: smaller;
         font-stretch: expanded;
     }
 
@@ -725,6 +1008,27 @@ tr:nth-child(even) {
         margin-left: 147px;
         width: 59%;
     }
+    
+    .lars {
+        height: 237px;
+        margin: 2px;
+        margin-left: 147px;
+        width: 59%;
+    }
+    
+    .kirk {
+        height: 237px;
+        margin: 2px;
+        margin-left: 147px;
+        width: 59%;
+    }
+    
+    .robert {
+        height: 237px;
+        margin: 2px;
+        margin-left: 147px;
+        width: 59%;
+    }
 
     .personal {
         float: left;
@@ -734,10 +1038,11 @@ tr:nth-child(even) {
 
     p {
         margin-top: 10px;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: left;
-        font-size: small;
+        font-size: medium;
+        max-width: max-content;
     }
 
     .images {
@@ -748,17 +1053,34 @@ tr:nth-child(even) {
     }
 
     /*--  Index table starts  --*/
-    .center {
-        margin-left: 110px;
-        margin-right: 0px;
-        background-color: #f2f2f2;
-        background-size: cover;
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 359px;
+        background-color: #f8f7f3;
+        z-index: 0;
     }
 
-    .blackend {
-        background: none;
-        margin-left: 0px;
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .center {
+        margin-left: 5px;
+        margin-top: 133px;
         margin-right: 0px;
+        background-color: #b5b4b100;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: medium;
     }
 
     /*--  Index table ends  --*/
@@ -800,15 +1122,16 @@ tr:nth-child(even) {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
     }
 
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 300px;
+        width: 75%;
     }
 
     .music {
@@ -819,10 +1142,33 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .container-fluid {
+    .social {
         margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
+    .button_email {
+        margin-top: 10px;
+    }
+
+    .social-links {
+        margin: 10px;
         height: 90px;
         width: 100%;
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
         background-color: #000000;
     }
 
@@ -832,13 +1178,13 @@ tr:nth-child(even) {
 @media (min-width: 992px) {
     /*-- Section starts  --*/
     /*-- Index read more btn starts  --*/
-    .btn {
+    .button_readmore {
         text-align: center;
-        margin-left: 213px;
-        margin-top: 25px;
-        width: 50%;
+        margin-left: auto;
+        margin-top: 0;
+        width: 13%;
         font-family: "Anton";
-        font-size: large;
+        font-size: small;
         font-stretch: expanded;
     }
 
@@ -864,6 +1210,27 @@ tr:nth-child(even) {
         margin-left: 70px;
         width: 40%;
     }
+    
+    .lars {
+        height: 250px;
+        margin: 2px;
+        margin-left: 70px;
+        width: 40%;
+    }
+    
+    .kirk {
+        height: 250px;
+        margin: 2px;
+        margin-left: 70px;
+        width: 40%;
+    }
+    
+    .robert {
+        height: 250px;
+        margin: 2px;
+        margin-left: 70px;
+        width: 40%;
+    }
 
     .personal {
         float: left;
@@ -875,10 +1242,11 @@ tr:nth-child(even) {
 
     p {
         margin-top: 10px;
-        margin-left: 120px;
-        margin-right: 120px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: left;
         font-size: medium;
+        max-width: max-content;
     }
 
     .images {
@@ -889,11 +1257,34 @@ tr:nth-child(even) {
     }
 
     /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 420px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
+
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
     .center {
-        margin-left: 220px;
-        margin-right: 0px;
-        background-color: #f2f2f2;
+        margin-left: auto;
+        margin-top: 155px;
+        margin-right: 0;
+        background-color: #b5b4b100;
         background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: larger;
     }
 
     /*--  Index table ends  --*/
@@ -934,15 +1325,16 @@ tr:nth-child(even) {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
     }
 
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 450px;
+        width: 75%;
     }
 
     .music {
@@ -953,10 +1345,29 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts --*/
-    .container-fluid {
+    .social {
         margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
+    .social-links {
+        margin: 10px;
         height: 90px;
         width: 100%;
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
         background-color: #000000;
     }
 
@@ -966,14 +1377,14 @@ tr:nth-child(even) {
 @media (min-width: 1200px) {
     /*-- Section starts  --*/
     /*-- Index read more btn starts  --*/
-    .btn {
+    .button_readmore {
         text-align: center;
-        margin-left: 290px;
-        margin-top: 25px;
-        margin-bottom: 30px;
-        width: 50%;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 13%;
         font-family: "Anton";
-        font-size: large;
+        font-size: smaller;
         font-stretch: expanded;
     }
 
@@ -989,6 +1400,30 @@ tr:nth-child(even) {
     }
 
     .james {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .lars {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .kirk {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .robert {
         height: 316px;
         margin-top: 20px;
         margin-left: 110px;
@@ -1011,10 +1446,11 @@ tr:nth-child(even) {
 
     p {
         margin-top: 10px;
-        margin-left: 320px;
-        margin-right: 220px;
+        margin-left: auto;
+        margin-right: auto;
         text-align: left;
         font-size: large;
+        max-width: max-content;
     }
 
     .images {
@@ -1026,18 +1462,33 @@ tr:nth-child(even) {
 
     /*--  Index table starts  --*/
     .blackend {
-        background-image: url(../images/index/blackend.jpg);
-        background-position: right;
+        background-position: center;
         background-repeat: no-repeat;
-        margin-left: 30px;
-        margin-right: 38px;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 500px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
+
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
     }
 
     .center {
-        margin-left: 100px;
-        margin-right: 0px;
-        background-color: #f2f2f2;
+        margin-left: auto;
+        margin-top: 183px;
+        margin-right: 0;
+        background-color: #b5b4b100;
         background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: x-large;
     }
 
     /*--  Index table ends  --*/
@@ -1079,15 +1530,16 @@ tr:nth-child(even) {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
     }
 
     /*--  Gallery ends  --*/
     /*--  Iframe starts  --*/
     iframe {
-        margin: 0 auto;
+        margin-top: 30px;
         display: block;
         height: 500px;
+        width: 75%;
     }
 
     .music {
@@ -1098,14 +1550,271 @@ tr:nth-child(even) {
 
     /*--  Iframe ends  --*/
     /*--  Footer starts  --*/
-    .container-fluid {
-        margin: auto;
+    .social-links {
+        margin: 10px;
         height: 90px;
         width: 100%;
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
         background-color: #000000;
     }
 
     /*--  Footer ends  --*/
 }
 
-/*--  Media query ends  --*/
+@media (min-width: 2560px) {
+    /*-- Section starts  --*/
+    /*-- Index read more btn starts  --*/
+    .button_readmore {
+        text-align: center;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 13%;
+        font-family: "Anton";
+        font-size: smaller;
+        font-stretch: expanded;
+    }
+
+    /*-- Index read more btn ends  --*/
+    .stage {
+        position: relative;
+        width: 100%;
+    }
+
+    .members {
+        position: relative;
+        width: 100%;
+    }
+
+    .james {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .lars {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .kirk {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+    
+    .robert {
+        height: 316px;
+        margin-top: 20px;
+        margin-left: 110px;
+        width: 502px;
+        float: left;
+    }
+
+    .events {
+        position: relative;
+        width: 100%;
+    }
+
+    .personal {
+        float: right;
+        text-align: left;
+        margin-left: 30px;
+        margin-right: 39px;
+        font-size: large;
+    }
+
+    p {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        font-size: large;
+        max-width: max-content;
+    }
+
+    .images {
+        height: 100px;
+        width: 200px;
+        margin: 20px;
+        margin-left: 90px;
+    }
+
+    .button_block_gallery {
+        font-family: "Anton";
+        font-size: large;
+        font-stretch: expanded;
+        color: red;
+        text-align: center;
+        background-color: lightgrey;
+        height: 27px;
+        width: 100%;
+        margin-top: 40px;
+        position: absolute;
+        bottom: 156px;
+        display: none;
+    }
+
+    .button_block {
+        font-family: "Anton";
+        font-size: large;
+        font-stretch: expanded;
+        color: red;
+        text-align: center;
+        background-color: lightgrey;
+        height: 27px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    /*--  Index table starts  --*/
+    .blackend {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-right: 0;
+        height: 500px;
+        background-color: #f8f7f3;
+        z-index: 0;
+    }
+
+    .blackend-overlay {
+        background-color: rgba(0, 0, 0, 0.27);
+        height: 100%;
+        width: 100%;
+        z-index: 5;
+    }
+
+    .index-center {
+        margin-right: 244px;
+        margin-left: 0;
+    }
+
+    .center {
+        margin-left: auto;
+        margin-top: 183px;
+        margin-right: 0;
+        background-color: #b5b4b100;
+        background-size: cover;
+        color: white;
+        text-align: center;
+        font-size: x-large;
+    }
+
+    /*--  Index table ends  --*/
+    /*--  Events table starts  --*/
+    .centerTable {
+        margin: 0 auto;
+    }
+
+    /*--  Events table ends  --*/
+    /*--  Gallery starts  --*/
+    .row_gallery {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: 300px;
+        margin-left: 358px;
+        margin-top: 50px;
+    }
+
+    .large {
+        width: 800px;
+        height: 533px;
+    }
+
+    .portfolio_lightbox_content {
+        width: 32%;
+        position: relative;
+        text-decoration: none;
+    }
+
+    .closed {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        background-color: #262626;
+        margin-right: 20px;
+        float: right;
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        opacity: .8;
+    }
+
+    /*--  Gallery ends  --*/
+    /*--  Iframe starts  --*/
+    iframe {
+        margin-top: 30px;
+        display: block;
+        height: 500px;
+        width: 75%;
+    }
+
+    .music {
+        margin: 10px auto;
+        display: block;
+        height: 500px;
+    }
+
+    /*--  Iframe ends  --*/
+    /*--  Footer starts  --*/
+    .social-links {
+        margin: 10px;
+        height: 90px;
+        width: 100%;
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+        bottom: 0;
+        position: absolute;
+    }
+    /*--  Footer ends  --*/
+    /*--  Media query ends  --*/
+}
