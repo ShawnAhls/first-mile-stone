@@ -250,6 +250,7 @@ p {
     color: black;
 }
 
+
 /*--   Gallery starts  --*/
 
 .portfolio_lightbox {
@@ -285,7 +286,7 @@ p {
     align-items: center;
     display: flex;
     justify-content: center;
-    opacity: .5;
+    opacity: .8;
 }
 
 .closed::after {
@@ -338,6 +339,28 @@ p {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin-left: 70px;
+}
+
+.button_block_gallery {
+    font-family: "Anton";
+    font-size: large;
+    font-stretch: expanded;
+    color: red;
+    text-align: center;
+    background-color: lightgrey;
+    height: 27px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.button_block_gallery a {
+    color: red;
+    text-decoration: none;
+    width: 100%;
+}
+
+.button_block_gallery:hover {
+    color: black;
 }
 
 /*--   Gallery ends  --*/
@@ -507,8 +530,6 @@ iframe {
         font-stretch: expanded;
     }
 
-
-
     /*-- Index read more btn ends  --*/
     .text {
         height: 124px;
@@ -630,7 +651,29 @@ iframe {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
+    }
+
+    .button_block_gallery {
+        font-family: "Anton";
+        font-size: large;
+        font-stretch: expanded;
+        color: red;
+        text-align: center;
+        background-color: lightgrey;
+        height: 27px;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .button_block_gallery a {
+        color: red;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    .button_block_gallery:hover {
+        color: black;
     }
 
     /*--  Gallery ends  --*/
@@ -669,6 +712,15 @@ iframe {
         height: 90px;
         width: 100%;
         color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 304px;
         background-color: #000000;
     }
     /*--  Footer ends  --*/
@@ -803,6 +855,20 @@ iframe {
         height: 337px;
     }
 
+    .closed {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        background-color: #262626;
+        margin-right: 0px;
+        float: right;
+        text-decoration: none;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        opacity: .8;
+    }
+
     /*--  Iframe starts  --*/
     iframe {
         margin-top: 30px;
@@ -837,6 +903,15 @@ iframe {
         height: 90px;
         width: 100%;
         color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 264px;
         background-color: #000000;
     }
 
@@ -973,7 +1048,7 @@ iframe {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
     }
 
     /*--  Gallery ends  --*/
@@ -1011,6 +1086,15 @@ iframe {
         height: 90px;
         width: 100%;
         color: #ffffff;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
         background-color: #000000;
     }
 
@@ -1149,7 +1233,7 @@ iframe {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
     }
 
     /*--  Gallery ends  --*/
@@ -1187,6 +1271,15 @@ iframe {
         background-color: #000000;
     }
 
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
     /*--  Footer ends  --*/
 }
 
@@ -1203,8 +1296,6 @@ iframe {
         font-size: smaller;
         font-stretch: expanded;
     }
-
-
 
     /*-- Index read more btn ends  --*/
     .stage {
@@ -1247,7 +1338,6 @@ iframe {
         max-width: max-content;
     }
 
-
     .images {
         height: 100px;
         width: 200px;
@@ -1274,6 +1364,7 @@ iframe {
         width: 100%;
         z-index: 5;
     }
+
     .center {
         margin-left: auto;
         margin-top: 183px;
@@ -1324,7 +1415,7 @@ iframe {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
     }
 
     /*--  Gallery ends  --*/
@@ -1352,6 +1443,24 @@ iframe {
         background-color: #000000;
     }
 
+    .social {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
+
     /*--  Footer ends  --*/
 }
 
@@ -1368,8 +1477,6 @@ iframe {
         font-size: smaller;
         font-stretch: expanded;
     }
-
-
 
     /*-- Index read more btn ends  --*/
     .stage {
@@ -1412,12 +1519,38 @@ iframe {
         max-width: max-content;
     }
 
-
     .images {
         height: 100px;
         width: 200px;
         margin: 20px;
         margin-left: 90px;
+    }
+
+    .button_block_gallery {
+        font-family: "Anton";
+        font-size: large;
+        font-stretch: expanded;
+        color: red;
+        text-align: center;
+        background-color: lightgrey;
+        height: 27px;
+        width: 100%;
+        margin-top: 40px;
+        position: absolute;
+        bottom: 156px;
+        display: none;
+    }
+
+    .button_block {
+        font-family: "Anton";
+        font-size: large;
+        font-stretch: expanded;
+        color: red;
+        text-align: center;
+        background-color: lightgrey;
+        height: 27px;
+        width: 100%;
+        margin-top: 40px;
     }
 
     /*--  Index table starts  --*/
@@ -1438,6 +1571,11 @@ iframe {
         height: 100%;
         width: 100%;
         z-index: 5;
+    }
+
+    .index-center {
+        margin-right: 244px;
+        margin-left: 0;
     }
 
     .center {
@@ -1464,8 +1602,9 @@ iframe {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        margin-right: 0px;
-        margin-left: 90px;
+        margin-right: 300px;
+        margin-left: 358px;
+        margin-top: 50px;
     }
 
     .large {
@@ -1474,7 +1613,7 @@ iframe {
     }
 
     .portfolio_lightbox_content {
-        width: 60%;
+        width: 32%;
         position: relative;
         text-decoration: none;
     }
@@ -1490,7 +1629,7 @@ iframe {
         align-items: center;
         display: flex;
         justify-content: center;
-        opacity: .5;
+        opacity: .8;
     }
 
     /*--  Gallery ends  --*/
@@ -1526,5 +1665,17 @@ iframe {
         height: 153px;
         background-color: #000000;
     }
+
+    .social-gallery {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+        bottom: 0;
+        position: absolute;
+    }
     /*--  Footer ends  --*/
     /*--  Media query ends  --*/
+}
