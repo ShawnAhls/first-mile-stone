@@ -43,7 +43,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #cccccc;
+    color: #b3b3b3;
 }
 
 /*--  Navbar ends --*/
@@ -61,7 +61,7 @@
 
 /*--  Section starts  --*/
 
-/*-- Modal starts  --*/
+/*-- Bookings starts  --*/
 
 .sign-up {
     margin-top: 25px;
@@ -82,7 +82,21 @@
     border-radius: 50px;
 }
 
-/*--  Modal ends  --*/
+.button_bookings {
+    background-color: white;
+    color: black;
+}
+
+.button_bookings:hover {
+    background-color: black;
+    color: white;
+}
+
+.details {
+    max-width: 80%;
+}
+
+/*--  Bookings ends  --*/
 
 .text {
     height: 200px;
@@ -130,7 +144,7 @@
     font-family: "Anton";
     font-size: medium;
     font-stretch: expanded;
-    color: #cccccc;
+    color: #b3b3b3;
 }
 
 .readmore a {
@@ -1425,6 +1439,7 @@ iframe {
         width: 100%;
         z-index: 5;
     }
+
     .center {
         margin-left: auto;
         margin-top: 183px;
@@ -1450,7 +1465,7 @@ iframe {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-right: 0px;
-        margin-left: 35px;
+        margin-left: 90px;
     }
 
     .large {
@@ -1503,7 +1518,13 @@ iframe {
         background-color: #000000;
     }
 
+    .social {
+        margin: auto;
+        padding-bottom: 15px;
+        width: 100%;
+        text-align: center;
+        height: 153px;
+        background-color: #000000;
+    }
     /*--  Footer ends  --*/
-}
-
-/*--  Media query ends  --*/
+    /*--  Media query ends  --*/
