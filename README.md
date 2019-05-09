@@ -105,7 +105,5 @@ The use of direct links to the bands social media sites.
 
 ### Special Thanks
 
-Bootstrap for the use of the modal code, I have changed the fieldset of the modal and changed some of the css.
-
 Kevin Powell on youtube for the explanation of lightbox, I have used his explanation of portfolio but changed some of the code
 to the way I have on my web page and changed some of the css code.
