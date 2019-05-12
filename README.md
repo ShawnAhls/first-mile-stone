@@ -76,7 +76,13 @@ With the testing on an iPad and iPhone on the different sizes:
 The gallery page, 
 
 On an iPad there will be 5 images with iPad vertical and 3 images horizontal and
-on an iPhone there will be 1 image vertically and 2 images horizontal
+on an iPhone there will be 1 image vertically and 2 images horizontal.
+
+I have found out that Internet Explorer does not always work the same as any other 
+browsers, on the band page by the members the images and paragraphs did not always
+line up as iin other browsers. I tried to size the paragraphs smaller, but
+that did not help to correct the line up problem. Then I tried to size the images smaller
+for 502px to 450px and the corrected to problem of line up.
 
 ## Deployment
 
